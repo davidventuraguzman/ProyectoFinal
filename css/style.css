@@ -1,0 +1,138 @@
+:root{
+    --azul: #443DCA;
+    --rosado: #EF4DB6;
+    --blanco: #ffffff;
+    --titulos: 'Anton', impact;
+    --parrafos: 'Fredoka', sans-serif;
+}
+/*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    background: var(--rosado) ;
+}
+h1,h2{
+    font-family: var(--titulos);
+}
+h3,p,a{
+    font-family: var(--parrafos);
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+    
+}
+.contenedor-navegacion{
+    background-color: var(--azul);
+    border-bottom: 3px solid #918de2;
+}
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2{
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.logo h2, a{
+    color: var(--rosado);
+}
+.navegacion a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: color .3s ease-in-out;
+}
+.navegacion a:hover{
+    color: #918de2;
+}
+
+.carrusel{
+    width: auto;
+    height: auto;
+    padding: 50px auto 0;
+    overflow: hidden;
+}
+.carrusel ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.txt {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 0 80px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.txt h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+.texto-carrusel1{
+    color: #443DCA;
+}
+.texto-carrusel4{
+    color: #7772e0;
+}
+.texto-carrusel2, .texto-carrusel3{
+    color: #EF4DB6;
+}
+.carrusel img{
+    width: 100%;
+    border-bottom: 3px solid #918de2;
+}
+.carrusel p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@keyframes slide{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+@media(max-width: 991px){
+
+    .carrusel{
+        width: 100%;
+    }
+    .txt{
+        top: 50px;
+        padding: 0;
+    }
+    .txt h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
