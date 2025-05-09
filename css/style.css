@@ -12,9 +12,8 @@ html{
 *,*::after,*::before{
     box-sizing: inherit;
 }
-
 body{
-    background: var(--rosado) ;
+    background: #ffb3e4;
 }
 h1,h2{
     font-family: var(--titulos);
@@ -22,6 +21,28 @@ h1,h2{
 h3,p,a{
     font-family: var(--parrafos);
 }
+img{
+    max-width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.btn-azul{
+    background-color: var(--azul);
+    display: inline-block;
+    margin-top: 20px;
+}
+.btn-azul:hover{
+    color: var(--rosado);
+    background-color: #554ecf;
+}
+/*NAVEGACION*/
 .contenedor{
     max-width: 1200px;
     margin: 0 auto;
@@ -54,6 +75,7 @@ h3,p,a{
     color: #918de2;
 }
 
+/*CARRUSEL*/
 .carrusel{
     width: auto;
     height: auto;
@@ -91,17 +113,17 @@ h3,p,a{
     letter-spacing: 1px;
 }
 .texto-carrusel1{
-    color: #443DCA;
+    color: var(--azul);
 }
 .texto-carrusel4{
     color: #7772e0;
 }
 .texto-carrusel2, .texto-carrusel3{
-    color: #EF4DB6;
+    color: var(--rosado);
 }
 .carrusel img{
     width: 100%;
-    border-bottom: 3px solid #918de2;
+    border-bottom: 3px solid #9a96e6;
 }
 .carrusel p{
     color: #ffffff;
@@ -123,16 +145,56 @@ h3,p,a{
 }
 
 @media(max-width: 991px){
-
     .carrusel{
         width: 100%;
     }
     .txt{
-        top: 50px;
+        top: 50%;
         padding: 0;
     }
     .txt h2{
         font-size: 20px;
         margin-bottom: 15px;
     }
+    .txt p{
+        font-size: 15px;
+    }
+}
+
+/*BIENVENIDA*/
+.contenedor-nosotros{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.texto-nosotros, .imagenes-nosotros{
+    flex: 0 0 calc(50% - 10px);
+}
+.texto-nosotros .bienvenido{
+    font-size: 30px;
+    color: var(--azul);
+    text-align: center;
+}
+
+.texto-nosotros h1{
+    font-size: 50px;
+    color: var(--rosado);
+    text-align: center;
+}
+.texto-nosotros p{
+    font-size: 20px;
+}
+.imagenes-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes-nosotros img{
+    border-radius: 5px;
+}
+.imagen1, .imagenes2{
+    flex: 0 0 calc(50% - 10px);
+}
+.imagenes2 img {
+    margin-bottom: 10px;
 }
