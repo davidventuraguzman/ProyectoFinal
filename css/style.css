@@ -2,7 +2,7 @@
     --azul: #443DCA;
     --rosado: #EF4DB6;
     --blanco: #ffffff;
-    --titulos: 'Anton', impact;
+    --titulos:'Anton', impact;
     --parrafos: 'Fredoka', sans-serif;
 }
 /*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
