@@ -1,9 +1,11 @@
 :root {
-    --rosa-suave: 		#FF80AB;
-    --rosa-fuerte: #ec407a;
-    --chocolate: #8d6e63;
-    --blanco: #ffffff;
-    --gris: #f3f3f3;
+    --azul-oscuro: #2A2D84;
+    --azul-claro: #E0E7FF;
+    --rosa-principal: #FF80AB;
+    --rosa-pastel: #FCE4EC;
+    --rosa-suave: #F8BBD0;
+    --blanco: #FFFFFF;
+     --texto-oscuro: #3E3E3E;
 }
 /*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
 html{
@@ -13,8 +15,8 @@ html{
     box-sizing: inherit;
 }
 body {
-    background: var(--rosa-suave);
-    color: var(--chocolate);
+    background: var(--rosa-principal);
+    color: var(--texto-oscuro);    
 }
 h1,h2{
     font-family: var(--titulos);
@@ -35,10 +37,10 @@ img{
     transition: all .3s ease-in-out;
 }
 .btn-azul {
-    background-color: var(--rosa-fuerte);
+    background-color: var(--azul-oscuro);
 }
 .btn-azul:hover {
-    background-color: #d81b60;
+    background-color: var(--rosa-principal);
 }
 /*NAVEGACION*/
 .contenedor{
@@ -48,7 +50,7 @@ img{
     
 }
 .contenedor-navegacion{
-    background-color: var(--azul);
+    background-color: var(--azul-oscuro);
 }
 .contenido-navegacion{
     display: flex;
@@ -59,17 +61,18 @@ img{
     letter-spacing: 1px;
     font-size: 30px;
 }
-.logo h2, a{
-    color: var(--rosado);
+.logo h2{
+    color: var(--rosa-principal);
 }
 .navegacion a{
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
+    color: var(--blanco);
     transition: color .3s ease-in-out;
 }
 .navegacion a:hover{
-    color: #0c0c0d;
+    color: var(--rosa-principal);
 }
 
 /*CARRUSEL*/
@@ -101,7 +104,7 @@ img{
     transform: translateY(-50%);
     width: 50%;
     padding: 0 80px;
-    text-align: right;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 .txt h2{
@@ -113,7 +116,7 @@ img{
     color: var(--azul);
 }
 .texto-carrusel4{
-    color: #7772e0;
+    color:var(--azul)
 }
 .texto-carrusel2, .texto-carrusel3{
     color: var(--rosado);
