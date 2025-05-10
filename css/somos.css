@@ -1,0 +1,89 @@
+body {
+  background-color: #f9f6ef;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 500px;
+  gap: 40px;
+}
+h3{
+   text-align: justify; 
+    font-size: 2.8em;
+  margin: 0.01em 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.about-text {
+  max-width: 600px;
+}
+.about-text h1 {
+  font-size: 24px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+.about-image {
+  flex: 0.9;
+  position: relative;
+  display: flex;
+}
+.about-image img {
+max-width: 500px;
+  width: 120%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.background-crema {
+  background-color:  #f3edd9; /* tono crema claro */
+  padding: 15px 0;
+}
+
+/*SEGUNDO TEXTO*/
+.seccion-mision {
+  padding: 50px;
+  
+}
+.imagen img {
+  max-width: 500px;
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.segundotexto {
+  max-width: 600px;
+}
+.segundotexto h1 {
+  font-size: 24px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.segundotexto p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .segundotexto h1 {
+    font-size: 20px;
+  }
+
+  .segundotexto p {
+    font-size: 16px;
+  }
+}
