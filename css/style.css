@@ -1,9 +1,9 @@
-:root{
-    --azul: #443DCA;
-    --rosado: #EF4DB6;
+:root {
+    --rosa-suave: 		#FF80AB;
+    --rosa-fuerte: #ec407a;
+    --chocolate: #8d6e63;
     --blanco: #ffffff;
-    --titulos: 'Anton', impact;
-    --parrafos: 'Fredoka', sans-serif;
+    --gris: #f3f3f3;
 }
 /*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
 html{
@@ -12,8 +12,9 @@ html{
 *,*::after,*::before{
     box-sizing: inherit;
 }
-body{
-    background: #ffb3e4;
+body {
+    background: var(--rosa-suave);
+    color: var(--chocolate);
 }
 h1,h2{
     font-family: var(--titulos);
@@ -33,14 +34,11 @@ img{
     border-radius: 5px;
     transition: all .3s ease-in-out;
 }
-.btn-azul{
-    background-color: var(--azul);
-    display: inline-block;
-    margin-top: 20px;
+.btn-azul {
+    background-color: var(--rosa-fuerte);
 }
-.btn-azul:hover{
-    color: var(--rosado);
-    background-color: #554ecf;
+.btn-azul:hover {
+    background-color: #d81b60;
 }
 /*NAVEGACION*/
 .contenedor{
@@ -51,7 +49,6 @@ img{
 }
 .contenedor-navegacion{
     background-color: var(--azul);
-    border-bottom: 3px solid #918de2;
 }
 .contenido-navegacion{
     display: flex;
@@ -72,14 +69,14 @@ img{
     transition: color .3s ease-in-out;
 }
 .navegacion a:hover{
-    color: #918de2;
+    color: #0c0c0d;
 }
 
 /*CARRUSEL*/
-.carrusel{
-    width: auto;
-    height: auto;
-    padding: 50px auto 0;
+.carrusel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     overflow: hidden;
 }
 .carrusel ul{
@@ -123,10 +120,10 @@ img{
 }
 .carrusel img{
     width: 100%;
-    border-bottom: 3px solid #9a96e6;
+    object-fit: cover; 
 }
 .carrusel p{
-    color: #ffffff;
+    color: #e2dcdc;
     font-size: 20px;
 }
 
@@ -173,17 +170,18 @@ img{
 }
 .texto-nosotros .bienvenido{
     font-size: 30px;
-    color: var(--azul);
+    color: var(--gris);
     text-align: center;
 }
 
 .texto-nosotros h1{
     font-size: 50px;
-    color: var(--rosado);
+    color: var(--gris);
     text-align: center;
 }
-.texto-nosotros p{
-    font-size: 20px;
+.texto-nosotros .p{
+    font-size: 20px;   
+    color: var(--azul);
 }
 .imagenes-nosotros{
     display: flex;
