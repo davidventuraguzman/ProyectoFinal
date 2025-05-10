@@ -1,11 +1,13 @@
 :root {
-    --azul-oscuro: #2A2D84;
+    --azul-oscuro: #2c30a8;
     --azul-claro: #E0E7FF;
-    --rosa-principal: #FF80AB;
+    --rosa-principal: #ff5bb5;
     --rosa-pastel: #FCE4EC;
     --rosa-suave: #F8BBD0;
     --blanco: #FFFFFF;
     --texto-oscuro: #3E3E3E;
+    --titulos: 'Anton', impact;
+    --parrafos: 'Fredoka', sans-serif;
 }
 /*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
 html{
@@ -37,7 +39,7 @@ img{
     transition: all .3s ease-in-out;
 }
 .btn-azul {
-    background-color: var(--azul-oscuro);
+    background-color: var(--azul-oscuro);    
 }
 .btn-azul:hover {
     background-color: var(--rosa-principal);
