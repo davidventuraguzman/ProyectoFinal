@@ -49,41 +49,31 @@ max-width: 500px;
 }
 
 /*SEGUNDO TEXTO*/
-.seccion-mision {
-  padding: 50px;
-  
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
-.imagen img {
-  max-width: 500px;
-  width: 60%;
+
+.image img {
+  max-width: 100%;
+  width: 5250px;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.segundotexto {
-  max-width: 600px;
+
+.text {
+  margin-left: 40px;
 }
-.segundotexto h1 {
-  font-size: 24px;
-  color: #101010;
-  margin-bottom: 20px;
-}
-.segundotexto p {
+
+.text p {
+  color: #333;
   font-size: 18px;
   line-height: 1.6;
-  color: #444;
-}
-@media (max-width: 768px) {
-  .contenedor {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .segundotexto h1 {
-    font-size: 20px;
-  }
-
-  .segundotexto p {
-    font-size: 16px;
-  }
+  text-align: justify;
 }
