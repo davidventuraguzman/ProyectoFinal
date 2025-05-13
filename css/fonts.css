@@ -8,7 +8,13 @@
 @font-face {
     font-family: "Fredoka";
     src: url("../fuente/Fredoka-Bold.ttf");
-    font-weight: 700;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("../fuente/Fredoka-SemiBold.ttf");
+    font-weight: 600;
 }
 
 @font-face {

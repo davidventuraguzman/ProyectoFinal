@@ -200,3 +200,42 @@ img{
 .imagenes2 img {
     margin-bottom: 10px;
 }
+
+
+
+
+
+/*Pie de página*/
+.pie-pagina{
+    margin-top: 50px;
+    background-color: var(--rosado);
+    padding: 80px;
+}
+.contenedor-piepagina{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    flex: 0 0 calc(25% - 10px);
+}
+.info h3, .info p{
+    text-align: center;
+}
+.info h3{
+    font-size: 20.2px;
+    font-weight: 600;
+}
+.redes-pie{
+    text-align: center;
+    font-size: 30px;
+}
+.redes-pie a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer{
+    text-align: center;
+    background-color: #ec1797;
+    padding: 3px;
+    font-size: 15px;
+}
