@@ -1,46 +1,30 @@
-
 :root {
-    --azul: #3D33A8;
-    --rosado: #F053B0;
+    --rosado: #EC4899;
     --rosa-suave:#FFA3D0 ;
     --blanco: #FFFFFF;
-    --color: #2B2B2B ;
-    --titulos: 'Anton', impact;
-    --parrafos: 'Fredoka', sans-serif;
+    --negro: #000000 ;
+    --titulos: 'Fredoka', impact;
+    --parrafos: 'Montserrat', sans-serif;
     --lemon: #EFE8D8;
     --background-color: #f9f5f0;
     --primary-color: #e5ada8;
 }
 
 /*Esto sirve para que las cajas de texto no se modifiquen al agregarles padding, sino mantengan su tamaño*/
-
 html {
+    box-sizing: border-box;
 	font-size: 62.5%;
 	font-family: 'Poppins', sans-serif;
 }
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.container {
-	max-width: 120rem;
-	margin: 0 auto;
-}
 body {
     background: var(--background-color);
-    margin: auto;
+    margin: 0;
+	padding: 0;
 }
-
 .heading-1 {
 	text-align: center;
 	font-weight: 500;
 	font-size: 3rem;
-}
-*,*::after,*::before{
-    box-sizing: inherit;
 }
 h1,h2{
     font-family: var(--titulos);
@@ -61,7 +45,7 @@ img{
     transition: all .3s ease-in-out;
 }
 .btn-rosado {
-    background-color: var(--p);    
+    background-color: var(--rosado);    
     display: inline-block;
     margin-top: 20px;
 }
@@ -76,6 +60,10 @@ img{
 }
 .contenedor-navegacion{
     background-color: var(--rosado);
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 .contenido-navegacion{
     display: flex;
@@ -84,12 +72,13 @@ img{
 }
 .logo h2{
     letter-spacing: 1px;
-    font-size: 30px;
-    color: var(--azul);
+    font-size: 27px;
+    color: var(--blanco);
+    font-family: 'AmaricSC';
 }
 .navegacion a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px;
     color: var(--blanco);
     transition: color .3s ease-in-out;
@@ -129,19 +118,12 @@ img{
     padding: 0 80px;
     border-radius: 8px;
     box-sizing: border-box;
+    text-align: right;
 }
 .txt h2{
     font-size: 45px;
     margin-bottom: 35px;
     letter-spacing: 1px;
-}
-.texto-carrusel1{
-    color: var(--azul);
-}
-.texto-carrusel4{
-    color:var(--azul)
-}
-.texto-carrusel2, .texto-carrusel3{
     color: var(--rosado);
 }
 .carrusel img{
@@ -149,7 +131,7 @@ img{
     object-fit: cover; 
 }
 .carrusel p{
-    color: #e2dcdc;
+    color: var(--negro);
     font-size: 20px;
 }
 
