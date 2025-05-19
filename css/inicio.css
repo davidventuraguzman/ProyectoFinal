@@ -481,13 +481,9 @@ img {
 }
 
 @media (max-width: 768px) {
-
-    /* Ajuste general de fuente */
     html {
         font-size: 55%;
-        /* Letras un poco más pequeñas para pantallas pequeñas */
     }
-
     /* Navegación */
     .contenedor-navegacion {
         padding: 0 1rem;
@@ -498,24 +494,20 @@ img {
         align-items: flex-start;
         gap: 10px;
     }
-
     .navegacion {
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-
     .navegacion a {
         font-size: 15px;
         padding: 8px 5px;
     }
-
     /* Carrusel */
     .carrusel ul li {
         position: relative;
     }
-
     .txt {
         width: 90%;
         padding: 0 1rem;
@@ -523,15 +515,14 @@ img {
         top: 40%;
         left: 50%;
         transform: translate(-50%, -40%);
-        text-align: center;
+        text-align: right;
+        
     }
-
     .txt h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
-
     .carrusel p {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     /* Sección Nosotros */
@@ -539,34 +530,27 @@ img {
         flex-direction: column;
         gap: 20px;
     }
-
     .texto-nosotros,
     .imagenes-nosotros {
         flex: 1 1 100%;
     }
-
     .texto-nosotros h1 {
         font-size: 3rem;
     }
-
     .texto-nosotros .bienvenido {
         font-size: 2rem;
     }
-
     .imagenes-nosotros {
         flex-direction: column;
     }
-
     .imagen1,
     .imagenes2 {
         width: 100%;
     }
-
     .imagenes2 img {
         width: 100%;
         margin-bottom: 10px;
     }
-
     /* Productos */
     .container-products {
         display: grid;
@@ -574,23 +558,19 @@ img {
         /* Una columna */
         gap: 2rem;
     }
-
     /* Pie de página */
     .contenedor-piepagina {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-
     .info {
         flex: 1 1 100%;
         text-align: center;
     }
-
     /* Botones */
     .btn {
         font-size: 18px;
         padding: 8px 25px;
     }
-
 }
