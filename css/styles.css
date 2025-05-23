@@ -416,6 +416,11 @@ img {
     html {
         font-size: 55%;
     }
+    .contenedor {
+        width: 99%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
     /* Navegación */
     .contenido-navegacion {
         position: relative;
@@ -457,14 +462,20 @@ img {
     
     /* Carrusel */
     .carrusel {
-    height: auto;
-    aspect-ratio: 16 / 9; 
+        height: auto;
+        min-height: unset;
+        aspect-ratio: unset;
     }
     .carrusel img {
-    height: auto;
+        height: auto;
+        max-height: 40vh; /*limita el alto de la imagen en móvil*/
+        object-fit: cover;
     }
-    .carrusel ul li {
-        position: relative;
+    .carrusel ul {
+        height: auto;
+    }
+    .carrusel li {
+        height: auto;
     }
     .txt {
         padding: 0 2rem;
@@ -494,19 +505,18 @@ img {
         font-size: 2rem;
     }
     .imagenes-nosotros {
+        display: flex;
         flex-direction: column;
+        gap: 20px; /*Espacio uniforme entre imágenes */
+        align-items: center; /* Centra las imágenes si hay margen lateral */
     }
-    .imagen1, .imagenes2 {
+    .imagenes-nosotros img {
         width: 100%;
+        max-width: 350px; /* Opcional: limita el ancho máximo */
+        border-radius: 0.5rem;
+        display: block;
     }
-    .container-products {
-        grid-template-columns: 1fr !important;
-        gap: 2rem;
-    }
-    .imagenes2 img {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+
     /* Productos */
     .container-products {
         display: grid;
