@@ -15,32 +15,37 @@
     box-sizing: border-box;
 }
 html {
-    box-sizing: border-box;
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
 body {
     background: var(--gris-claro);
     margin: 0;
     padding: 0;
     color: var(--negro);
 }
+
 .heading-1 {
     text-align: center;
     font-weight: 500;
     font-size: 3rem;
 }
-h1,h2 {
+
+/* Agrupa fuentes para títulos y párrafos */
+h1, h2 {
     font-family: var(--titulos);
 }
-h3,p,a {
+h3, p, a {
     font-family: var(--parrafos);
 }
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
+
 .btn {
     text-decoration: none;
     color: var(--blanco);
