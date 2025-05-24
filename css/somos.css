@@ -86,7 +86,7 @@ max-width: 400px;
 
 /*TERCER TEXTO*/
 .imagen img{
-  max-width: 600px;
+  max-width: 250px;
   width: 90%;
   height: auto;
   border-radius: 8px;
@@ -148,7 +148,17 @@ max-width: 400px;
         font-size: 15px;
         padding: 8px 5px;
     }
-
+.about, .container{
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 20px;
+}
+.about-image img, .imagen img, .image img{
+    max-width: 100%;
+  }
+   .text {
+    margin-left: 0;
+  }
    
     /*pie de pagina*/
   .contenedor-piepagina {
@@ -161,30 +171,7 @@ max-width: 400px;
         text-align: center;
     }
   }
-  @media (max-width: 768px) {
-  .about,
-  .container {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 20px;
-  }
-
-  .about-text,
-  .text {
-    max-width: 100%;
-  }
-
-  .about-image img,
-  .image img,
-  .imagen img {
-    max-width: 100%;
-  }
-
-  .text {
-    margin-left: 0;
-  }
-}
-@keyframes slide {
+  @keyframes slide {
     0% {
         margin-left: 0;
     }
@@ -210,4 +197,5 @@ max-width: 400px;
         margin-left: -300%;
     }
 }
+
   
