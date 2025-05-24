@@ -1,3 +1,4 @@
+
 body {
   background-color: #EDEDED;
   margin: 0;
@@ -93,13 +94,7 @@ max-width: 400px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.footer {
-    text-align: center;
-    background-color: var(--rosado-fuerte);
-    padding: 3px;
-    font-size: 15px;
-    color: var(--blanco);
-}
+
 
 @media (max-width: 768px) {
   html {
@@ -159,6 +154,12 @@ max-width: 400px;
    .text {
     margin-left: 0;
   }
+  .background-rosado{
+    padding: 20px 0;
+    background-color: #f3e2ea;
+  }
+
+  }
    
     /*pie de pagina*/
   .contenedor-piepagina {
@@ -170,7 +171,7 @@ max-width: 400px;
         flex: 1 1 100%;
         text-align: center;
     }
-  }
+  
   @keyframes slide {
     0% {
         margin-left: 0;
