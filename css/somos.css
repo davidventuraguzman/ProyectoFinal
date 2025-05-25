@@ -108,11 +108,26 @@ h3 {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 1617px) {
+  .about {
+    padding: 30px 200px;
+  }
+
+  .about-image img {
+    max-width: 300px;
+  }
+  .imagen{
+  display: flex;
+  align-items: center; /* Opcional para alinear verticalmente */
+  gap: 20px; /* Reduce este valor para que estén más pegados */
+  padding: 0 20px;
+}
+  }
 
 
 @media (max-width: 1444px) {
   .about {
-    padding: 50px 40px;
+    padding: 30px 40px;
   }
 
   .about-image img {
@@ -129,6 +144,7 @@ h3 {
   .about-image img {
     max-width: 300px;
   }
+  
 }
 
 @media (max-width: 768px) {
