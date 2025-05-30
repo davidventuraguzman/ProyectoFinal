@@ -110,6 +110,7 @@ img {
     color: var(--blanco);
     cursor: pointer;
 }
+
 /*CARRUSEL*/
 .carrusel {
     width: 100vw;
@@ -289,37 +290,9 @@ img {
 .card-product:hover .discount {
     background-color: var(--rosado-fuerte);
 }
-.button-group {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: absolute;
-    top: 0;
-    right: -3rem;
-    z-index: -1;
-    transition: all 0.4s ease;
-}
-.button-group span {
-    border: 1px solid var(--rosado-fuerte);
-    padding: 0.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: all 0.4s ease;
-}
-.button-group span:hover {
-    background-color: var(--rosado-fuerte);
-}
-.button-group span i {
-    font-size: 1.5rem;
-    color: var(--rosado-fuerte);
-}
-.button-group span:hover i {
-    color: var(--blanco);
-}
-.card-product:hover .button-group {
+
+
+.card-product:hover {
     z-index: 0;
     right: -1rem;
 }
@@ -491,6 +464,60 @@ img {
     padding: 3px;
     font-size: 15px;
     color: var(--blanco);
+}
+
+/* Muestra el submenu solo al hacer hover */
+.navegacion {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 20px;           /* Más abajo */
+    left: 40px;          /* Más a la derecha */
+    background: #fff0f6; /* Color pastel rosado */
+    box-shadow: 0 8px 24px rgba(169,75,44,0.10), 0 1.5px 8px rgba(255,192,203,0.10);
+    border-radius: 18px;
+    min-width: 170px;
+    z-index: 100;
+    padding: 10px 0;
+    transition: opacity 0,25s, transform 0.25s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navegacion a.submenu-toggle:hover + .submenu,
+.navegacion .submenu:hover {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(1px) scale(1.03);
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    display: block;
+    padding: 12px 28px;
+    color: #a94b2c;
+    text-decoration: none;
+    font-size: 1.08rem;
+    border-radius: 12px;
+    transition: background 0.18s, color 0.18s, transform 0.18s;
+    font-family: var(--parrafos);
+    margin: 2px 0;
+}
+
+.submenu li a:hover {
+    background: var(--rosado-semifuerte);
+    color: #fff;
+    transform: scale(1.07);
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px #f8d3e0;
 }
 
 @media (max-width: 768px) {

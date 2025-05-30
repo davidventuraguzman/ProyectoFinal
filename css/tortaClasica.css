@@ -1,0 +1,123 @@
+/* Catálogo de tortas clásicas */
+.catalogo-tortas {
+    display: flex;
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    gap: 40px;
+    min-height: 600px;
+}
+
+.categorias-tortas {
+    width: 240px;
+}
+
+.categorias-tortas h2 {
+    color: #a94b2c;
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.categorias-tortas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorias-tortas ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.categorias-tortas ul li a {
+    color: #3d2b1f;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.categorias-tortas ul li a:hover {
+    color: #a94b2c;
+    text-decoration: underline;
+}
+
+.productos-tortas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grid-tortas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.torta {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.torta img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.info-torta {
+    padding: 18px 0 16px 0;
+    text-align: center;
+}
+
+.info-torta h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3d2b1f;
+}
+
+.info-torta p {
+    color: #a94b2c;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .grid-tortas {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .categorias-tortas {
+        width: 180px;
+    }
+}
+@media (max-width: 900px) {
+    .catalogo-tortas {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    .categorias-tortas {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .grid-tortas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .grid-tortas {
+        grid-template-columns: 1fr;
+    }
+}

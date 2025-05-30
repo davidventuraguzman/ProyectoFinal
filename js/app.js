@@ -15,17 +15,7 @@ const productos = {
 				<div class="container-img">
 					<img src="img/pastel1.jpg" alt="Torta Hello Kitty" />
 					<span class="discount">-10%</span>
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					
 				</div>
 				<div class="content-card-product">
 					<div class="stars">
@@ -47,17 +37,7 @@ const productos = {
 				<div class="container-img">
 					<img src="img/pastel2.jpg" alt="Mini torta con flores" />
 					<span class="discount">-20%</span>
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					
 				</div>
 				<div class="content-card-product">
 					<div class="stars">
@@ -78,17 +58,7 @@ const productos = {
 			<div class="card-product">
 				<div class="container-img">
 					<img src="img/pastel3.jpg" alt="Torta en forma de corazón" />
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					
 				</div>
 				<div class="content-card-product">
 					<div class="stars">
@@ -109,17 +79,7 @@ const productos = {
 			<div class="card-product">
 				<div class="container-img">
 					<img src="img/pastel4.jpg" alt="Torta revelación de sexo" />
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					
 				</div>
 				<div class="content-card-product">
 					<div class="stars">
@@ -142,11 +102,7 @@ const productos = {
             <div class="container-img">
                 <img src="img/pastel5.jpg" alt="Torta Unicornio" />
                 <span class="discount">-15%</span>
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+                
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -164,11 +120,7 @@ const productos = {
         <div class="card-product">
             <div class="container-img">
                 <img src="img/pastel6.jpg" alt="Cupcakes de chocolate" />
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+               
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -186,11 +138,7 @@ const productos = {
         <div class="card-product">
             <div class="container-img">
                 <img src="img/pastel7.jpg" alt="Torta Red Velvet" />
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+               
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -209,11 +157,7 @@ const productos = {
             <div class="container-img">
                 <img src="img/pastel8.jpg" alt="Torta de Zanahoria" />
                 <span class="discount">-10%</span>
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+                
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -234,17 +178,7 @@ const productos = {
 				<div class="container-img">
 					<img src="img/pastel1.jpg" alt="Torta Hello Kitty" />
 					<span class="discount">-10%</span>
-					<div class="button-group">
-						<span>
-							<i class="fa-regular fa-eye"></i>
-						</span>
-						<span>
-							<i class="fa-regular fa-heart"></i>
-						</span>
-						<span>
-							<i class="fa-solid fa-code-compare"></i>
-						</span>
-					</div>
+					
 				</div>
 				<div class="content-card-product">
 					<div class="stars">
@@ -264,11 +198,7 @@ const productos = {
         <div class="card-product">
             <div class="container-img">
                 <img src="img/pastel10.jpg" alt="Cupcakes de chocolate" />
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+                
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -286,11 +216,7 @@ const productos = {
         <div class="card-product">
             <div class="container-img">
                 <img src="img/pastel11.jpg" alt="Torta Red Velvet" />
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+               
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -309,11 +235,7 @@ const productos = {
             <div class="container-img">
                 <img src="img/pastel12.jpg" alt="Torta de Zanahoria" />
                 <span class="discount">-10%</span>
-                <div class="button-group">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span><i class="fa-regular fa-heart"></i></span>
-                    <span><i class="fa-solid fa-code-compare"></i></span>
-                </div>
+                
             </div>
             <div class="content-card-product">
                 <div class="stars">
