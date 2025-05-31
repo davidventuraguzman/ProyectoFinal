@@ -6,6 +6,25 @@ document.addEventListener('DOMContentLoaded', function () {
             nav.classList.toggle('active');
         });
     }
+
+    // Manejo del formulario de registro solo para mostrar éxito
+    const formulario = document.querySelector('form');
+    const mensaje = document.getElementById('mensaje-registro');
+    if (formulario && mensaje) {
+        formulario.addEventListener('submit', function (e) {
+            e.preventDefault();
+            // Si el formulario es válido, muestra mensaje de éxito
+            if (formulario.checkValidity()) {
+                mensaje.textContent = '¡Registro exitoso!';
+                mensaje.style.backgroundColor = 'var(--rosado-fuerte)';
+                mensaje.classList.add('activo');
+                formulario.reset();
+                setTimeout(() => {
+                    mensaje.classList.remove('activo');
+                }, 3000);
+            }
+        });
+    }
 });
 
 const productos = {
@@ -119,8 +138,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel6.jpg" alt="Cupcakes de chocolate" />
-               
+                <img src="img/pastel6.jpg" alt="Cupcakes de chocolate" /> 
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -137,8 +155,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel7.jpg" alt="Torta Red Velvet" />
-               
+                <img src="img/pastel7.jpg" alt="Torta Red Velvet" />      
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -216,7 +233,6 @@ const productos = {
         <div class="card-product">
             <div class="container-img">
                 <img src="img/pastel11.jpg" alt="Torta Red Velvet" />
-               
             </div>
             <div class="content-card-product">
                 <div class="stars">

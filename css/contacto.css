@@ -1,0 +1,26 @@
+.mensaje-registro {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: var(--rosado-fuerte);
+    color: var(--blanco);
+    font-family: var(--parrafos);
+    padding: 1.2rem 2.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 16px #0002;
+    z-index: 9999;
+    min-width: 220px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    pointer-events: none;
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+.mensaje-registro.activo {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
