@@ -40,7 +40,7 @@ body {
 }
 .carrito-contenido th {
     background: #f8d3e0;
-    color: #a94b2c;
+    color: var(--rosado-fuerte);
     font-size: 1.15rem;
     font-weight: bold;
     border: none;
@@ -65,7 +65,7 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .carrito-contenido button {
-    background: #a94b2c;
+    background: var(--rosado-fuerte);
     color: #fff;
     border: none;
     padding: 6px 16px;
@@ -77,11 +77,11 @@ body {
     transition: background 0.2s;
 }
 .carrito-contenido button:hover {
-    background: #7c3720;
+    background:var(--rosado-semifuerte);
 }
 .carrito h1 {
     text-align: left;
-    color: #a94b2c;
+    color: var(--rosado-fuerte);
     font-size: 2rem;
     margin-bottom: 20px;
     font-family: var(--titulos);
