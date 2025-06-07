@@ -33,21 +33,23 @@ body {
     font-size: 1.1rem;
     overflow: hidden;
 }
-.carrito-contenido th, .carrito-contenido td {
+.carrito-contenido th, 
+.carrito-contenido td {
+    font-size: 1.5rem;
+    padding: 18px 10px;
     text-align: center;
     vertical-align: middle;
-    padding: 18px 8px;
 }
 .carrito-contenido th {
     background: #f8d3e0;
     color: var(--rosado-fuerte);
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     font-weight: bold;
     border: none;
 }
 .carrito-contenido td {
     color: #3d2b1f;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     border: none;
 }
 .carrito-contenido td:first-child {
@@ -68,11 +70,11 @@ body {
     background: var(--rosado-fuerte);
     color: #fff;
     border: none;
-    padding: 6px 16px;
+    padding: 8px 18px;
     margin: 0 2px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     transition: background 0.2s;
 }
@@ -82,11 +84,19 @@ body {
 .carrito h1 {
     text-align: left;
     color: var(--rosado-fuerte);
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     font-family: var(--titulos);
     font-weight: bold;
     margin-left: 0;
+}
+.carrito-contenido p {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--rosado-fuerte);
+    font-weight: bold;
+    margin: 60px 0;
+    font-family: var(--titulos, 'Montserrat', sans-serif);
 }
 
 /* RESPONSIVE PARA EL CARRITO */
