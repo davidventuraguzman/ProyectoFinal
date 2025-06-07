@@ -1,0 +1,90 @@
+:root {
+    --rosado-fuerte: #EC4899;
+    --rosado-semifuerte: #EB62A6;
+    --rosado: #E77EB1;
+    --rosado-suave: #F5BED9;
+    --gris-claro: #EDEDED;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --titulos: 'Fredoka', impact;
+    --parrafos: 'Montserrat', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.carrito {
+    flex: 1;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.pie-pagina, .footer {
+    margin-top: auto;
+}
+.carrito-contenido table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-radius: 12px;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+.carrito-contenido th, .carrito-contenido td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 18px 8px;
+}
+.carrito-contenido th {
+    background: #f8d3e0;
+    color: #a94b2c;
+    font-size: 1.15rem;
+    font-weight: bold;
+    border: none;
+}
+.carrito-contenido td {
+    color: #3d2b1f;
+    font-size: 1.15rem;
+    border: none;
+}
+.carrito-contenido td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-start;
+    padding-left: 24px;
+}
+.carrito-contenido img {
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.carrito-contenido button {
+    background: #a94b2c;
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.carrito-contenido button:hover {
+    background: #7c3720;
+}
+.carrito h1 {
+    text-align: left;
+    color: #a94b2c;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    margin-left: 0;
+}
