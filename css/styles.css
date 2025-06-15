@@ -364,67 +364,13 @@ img {
 .formulario{
     padding-top: 4rem;
 }
-/*Formulario*/
-.formulario-registro{
-    display: flex;
+/*Mapa*/
+.mapa{
+    width:100%;
+    height:450px;
+    border: 0;
 }
-.informacion-registro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    text-align: center;
-}
-.informacion-registro, .formulario{
-    flex: 0 0 calc(50% - 1rem);
-}
-.informacion-registro{
-    background-color: var(--rosado-fuerte);
-    height: 80rem;
-}
-.informacion-registro h3, .informacion-registro p{
-    color: var(--blanco);
-}
-.informacion-registro h3{
-    font-size: 3.9rem;
-    font-family: var(--titulos);
-    font-weight: 600;
-}
-.informacion-registro p{
-    font-size: 1.9rem;
-}
-.informacion-registro i{
-    margin-right: 1rem;
-}
-.formulario{
-    padding: 5rem;
-}
-.input-formulario label{
-    font-family: var(--parrafos);
-    display: block;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    padding-top: 1rem;
-}
-.input-formulario input, .input-formulario textarea{
-    width: 100%;
-    background-color: var(--gris-claro);
-}
-.input-formulario input, .input-formulario textarea{
-    padding: 1rem;
-    border: 1px solid var(--rosado);
-    border-radius: 5px;
-    outline: none;
-    font-family: var(--parrafos);
-}
-.input-formulario textarea{
-    height: 20rem;
-    resize: none;
-}
-.comunidad h2{
-    padding: 2rem;
-}
+
 /*Pie de página*/
 .pie-pagina {
     margin-top: 50px;
