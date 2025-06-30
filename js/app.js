@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
             nav.classList.toggle('active');
         });
     }
-
+    
     // Manejo del formulario de registro solo para mostrar éxito
     const formulario = document.querySelector('form');
     const mensaje = document.getElementById('mensaje-registro');
@@ -334,6 +334,29 @@ if (window.location.pathname.includes('carrito.html')) {
         });
         html += '</table>';
         contenedor.innerHTML = html;
+        //boton de WhatsApp
+        // Mostrar botón de WhatsApp si hay productos
+        let btnWhatsapp = document.getElementById('btn-whatsapp');
+        if (btnWhatsapp) btnWhatsapp.remove(); // Elimina si ya existe
+
+        if (carrito.length > 0) {
+            btnWhatsapp = document.createElement('button');
+            btnWhatsapp.id = 'btn-whatsapp';
+            btnWhatsapp.className = 'btn-whatsapp';
+            btnWhatsapp.innerHTML = '<i class="fa-brands fa-whatsapp"></i> FINALIZAR PEDIDO POR WHATSAPP';
+            btnWhatsapp.onclick = function() {
+                let mensaje = '¡Hola! Quiero hacer un pedido:%0A';
+                let total = 0;
+                carrito.forEach(item => {
+                    mensaje += `• ${item.nombre} x${item.cantidad} - S/.${item.precio} c/u%0A`;
+                    total += item.precio * item.cantidad;
+                });
+                mensaje += `%0ATotal: S/.${total.toFixed(2)}`;
+                
+                window.open(`https://api.whatsapp.com/send?phone=51991741373&text=${mensaje}`, '_blank');
+            };
+            document.body.appendChild(btnWhatsapp);
+        }
 
         // Botones de cantidad y eliminar
         contenedor.querySelectorAll('.menos').forEach(btn => {
