@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapeo</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background: #f5bed9;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .mapa-visual {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .nodo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .nodo a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icono-nodo {
+            background: #fff;
+            color: #ec4899;
+            border-radius: 16px;
+            padding: 18px;
+            font-size: 2.2rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 8px;
+            transition: transform 0.2s ease;
+        }
+
+        .icono-nodo:hover {
+            transform: scale(1.1);
+        }
+
+        .titulo-nodo {
+            font-family: 'Fredoka', impact;
+            font-size: 1.2rem;
+            color: #ec4899;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        .subtitulo-nodo {
+            font-size: 1rem;
+            color: #e77eb1;
+            margin-bottom: 8px;
+        }
+
+        .ramas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .ramas {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mapa-visual">
+        <!-- INICIO -->
+        <div class="nodo">
+            <a href="index.html">
+                <div class="icono-nodo"><i class="fa-solid fa-house"></i></div>
+                <div class="titulo-nodo">Inicio</div>
+                <div class="subtitulo-nodo">index.html</div>
+            </a>
+        </div>
+
+        <!-- CATEGORÍAS -->
+        <div class="ramas">
+            <div class="nodo"><a href="tortaClasica.html">
+                <div class="icono-nodo"><i class="fa-solid fa-cake-candles"></i></div>
+                <div class="titulo-nodo">Tortas</div>
+                <div class="subtitulo-nodo">tortaClasica.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="galletas.html">
+                <div class="icono-nodo"><i class="fa-solid fa-cookie-bite"></i></div>
+                <div class="titulo-nodo">Galletas</div>
+                <div class="subtitulo-nodo">galletas.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="cupquets.html">
+                <div class="icono-nodo"><i class="fa-solid fa-birthday-cake"></i></div>
+                <div class="titulo-nodo">Cupcakes</div>
+                <div class="subtitulo-nodo">cupquets.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="postres.html">
+                <div class="icono-nodo"><i class="fa-solid fa-ice-cream"></i></div>
+                <div class="titulo-nodo">Postres</div>
+                <div class="subtitulo-nodo">postres.html</div>
+            </a></div>
+        </div>
+
+        <!-- OTROS ELEMENTOS -->
+        <div class="ramas">
+            <div class="nodo"><a href="box.html">
+                <div class="icono-nodo"><i class="fa-solid fa-box"></i></div>
+                <div class="titulo-nodo">Boxs</div>
+                <div class="subtitulo-nodo">box.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="carrito.html">
+                <div class="icono-nodo"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="titulo-nodo">Carrito</div>
+                <div class="subtitulo-nodo">carrito.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="somos.html">
+                <div class="icono-nodo"><i class="fa-solid fa-users"></i></div>
+                <div class="titulo-nodo">Quiénes Somos</div>
+                <div class="subtitulo-nodo">somos.html</div>
+            </a></div>
+
+            <div class="nodo"><a href="contacto.html">
+                <div class="icono-nodo"><i class="fa-solid fa-envelope"></i></div>
+                <div class="titulo-nodo">Contacto</div>
+                <div class="subtitulo-nodo">contacto.html</div>
+            </a></div>
+        </div>
+    </body>
+</html>
