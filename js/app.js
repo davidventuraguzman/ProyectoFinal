@@ -364,4 +364,5 @@ if (window.location.pathname.includes('carrito.html')) {
             };
         });
     }
+    
 }
