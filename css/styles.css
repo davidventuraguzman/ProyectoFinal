@@ -466,6 +466,20 @@ img {
     box-shadow: 0 2px 8px #f8d3e0;
 }
 
+/* Uniformiza los enlaces del pie de página */
+.pie-pagina .info a {
+    color: #fff;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    transition: color 0.2s;
+}
+.pie-pagina .info a:hover {
+    color: var(--rosado-fuerte);
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     html {
         font-size: 55%;
@@ -737,7 +751,7 @@ img {
         top: 50%;
         transform: translateY(-50%);
         font-weight: bold;
-        color: #a94b2c;
+        color: var(--rosado-fuerte);
         font-size: 0.98rem;
         font-family: var(--parrafos, 'Montserrat', sans-serif);
         opacity: 0.85;
