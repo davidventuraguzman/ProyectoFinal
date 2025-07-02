@@ -375,14 +375,23 @@ img {
 .pie-pagina {
     margin-top: 50px;
     background-color: var(--rosado);
-    padding: 80px;
+    padding: 40px 10px;
 }
 .contenedor-piepagina {
     display: flex;
+    flex-wrap: wrap; /* Permite que los bloques bajen si no hay espacio */
     justify-content: space-between;
+    gap: 30px 10px; /* Espacio entre filas y columnas */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .info {
-    flex: 0 0 calc(25% - 10px);
+    flex: 1 1 180px; /* Mínimo 180px, crece si hay espacio */
+    min-width: 150px;
+    max-width: 220px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
 }
 .info h3,.info p {
     text-align: center;
@@ -464,6 +473,11 @@ img {
     font-weight: 600;
     letter-spacing: 1px;
     box-shadow: 0 2px 8px #f8d3e0;
+}
+.pie-pagina {
+    margin-top: 50px;
+    background-color: var(--rosado);
+    padding: 70px 10px 60px 10px;
 }
 
 /* Uniformiza los enlaces del pie de página */
@@ -610,6 +624,19 @@ img {
     .btn {
         font-size: 18px;
         padding: 8px 25px;
+    }
+    /* Responsive para pie de página */
+    .contenedor-piepagina {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .pie-pagina {
+        padding: 30px 5px;
+    }
+    .info {
+        max-width: 100%;
+        min-width: 0;
     }
 }
 
