@@ -37,7 +37,7 @@
             background: #fff;
             color: #ec4899;
             border-radius: 16px;
-            padding: 18px;
+            padding: 25px;
             font-size: 2.2rem;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             margin-bottom: 10px;
@@ -64,17 +64,52 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 50px;
+            gap: 50px 70px;
             margin-top: 20px;
         }
 
-        @media (max-width: 600px) {
-            .ramas {
-                flex-direction: column;
-                align-items: center;
-                gap: 24px;
-            }
-        }
+@media (max-width: 900px) {
+    body {
+        padding: 0;
+    }
+    .mapa-visual {
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .ramas {
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0 0 0 0;
+        justify-content: center;
+        gap: 24px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+    .mapa-visual {
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0;
+    }
+    .ramas {
+        width: 100vw;
+        max-width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding: 0;
+    }
+    .nodo {
+        width: 92vw;
+        max-width: 340px;
+        min-width: unset;
+    }
+}
     </style>
 </head>
 <body>
