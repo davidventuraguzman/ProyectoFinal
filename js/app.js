@@ -45,9 +45,12 @@ const productos = {
 						<i class="fa-regular fa-star"></i>
 					</div>
 					<h3>Torta Hello Kitty</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
+					<button class="btn-agregar-carrito" 
+                            data-nombre="TORTA HELLO KITTY" 
+                            data-precio="261.00" 
+                            data-img="img/pastel1.jpg">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar 
+                    </button>
 					<p class="price">S/261 <span>S/290</span></p>
 				</div>
 			</div>
@@ -67,13 +70,17 @@ const productos = {
 						<i class="fa-regular fa-star"></i>
 					</div>
 					<h3>Box Floral</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
+					<button class="btn-agregar-carrito" 
+                            data-nombre="MINI TORTA CON FLORES" 
+                            data-precio="95.00" 
+                            data-img="img/pastel2.jpg">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar 
+                    </button>
 					<p class="price">S/52 <span>S/65</span></p>
+                    
 				</div>
 			</div>
-			<!--3-->
+			<!-- producto 3 -->
 			<div class="card-product">
 				<div class="container-img">
 					<img src="img/pastel3.jpg" alt="Torta en forma de corazón" />
@@ -88,13 +95,17 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 					</div>
 					<h3>Torta corazón rosado</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
+                    <button class="btn-agregar-carrito" 
+                            data-nombre="TORTA CORAZÓN ROSADO" 
+                            data-precio="80.00" 
+                            data-img="img/pastel3.jpg">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar 
+                    </button>
 					<p class="price">S/80</p>
+                    
 				</div>
 			</div>
-			<!-- 4-->
+			<!-- producto 4 -->
 			<div class="card-product">
 				<div class="container-img">
 					<img src="img/pastel4.jpg" alt="Torta revelación de sexo" />
@@ -109,9 +120,12 @@ const productos = {
 						<i class="fa-regular fa-star"></i>
 					</div>
 					<h3>Torta boy or girl</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
+					<button class="btn-agregar-carrito" 
+                            data-nombre="REVELACIÓN DE SEXO" 
+                            data-precio="245.00" 
+                            data-img="img/pastel4.jpg">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar 
+                    </button>
 					<p class="price">S/245</p>
 				</div>
 			</div>
@@ -132,7 +146,12 @@ const productos = {
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <h3>Torta Spiderman</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="UNICORNIO" 
+                        data-precio="204.00" 
+                        data-img="img/pastel5.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/204 <span>S/240</span></p>
             </div>
         </div>
@@ -149,7 +168,12 @@ const productos = {
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <h3>Box Cumpleaños Amoroso</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="Cupcake chocolate" 
+                        data-precio="55.00" 
+                        data-img="img/pastel6.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/55</p>
             </div>
         </div>
@@ -166,7 +190,12 @@ const productos = {
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <h3>Torta Cinamonroll</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="torta red velvet" 
+                        data-precio="150.00" 
+                        data-img="img/pastel7.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/150</p>
             </div>
         </div>
@@ -185,7 +214,12 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <h3>Torta Cumpleaños mamá</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="torta de zanahoria" 
+                        data-precio="153.00" 
+                        data-img="img/pastel8.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/153 <span>S/170</span></p>
             </div>
         </div>
@@ -206,9 +240,12 @@ const productos = {
 						<i class="fa-regular fa-star"></i>
 					</div>
 					<h3>Torta Hello Kitty</h3>
-					<span class="add-cart">
-						<i class="fa-solid fa-basket-shopping"></i>
-					</span>
+					<button class="btn-agregar-carrito" 
+                            data-nombre="torta hello kitty" 
+                            data-precio="261.00" 
+                            data-img="img/pastel1.jpg">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar 
+                    </button>
 					<p class="price">S/261 <span>S/290</span></p>
 				</div>
 			</div>
@@ -226,7 +263,12 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <h3>Box Sorpresa Amorosa</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="cupcake chocolate" 
+                        data-precio="95.00" 
+                        data-img="img/pastel10.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/95</p>
             </div>
         </div>
@@ -243,7 +285,12 @@ const productos = {
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <h3>Torta Blancanieves</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="torta red velvet" 
+                        data-precio="310.00" 
+                        data-img="img/pastel11.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/310</p>
             </div>
         </div>
@@ -262,7 +309,12 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <h3>Torta Sweet Pink</h3>
-                <span class="add-cart"><i class="fa-solid fa-basket-shopping"></i></span>
+                <button class="btn-agregar-carrito" 
+                        data-nombre="torta de zanahoria" 
+                        data-precio="90.00" 
+                        data-img="img/pastel12.jpg">
+                        <i class="fa-solid fa-cart-plus"></i> Agregar 
+                </button>
                 <p class="price">S/90 <span>S/100</span></p>
             </div>
         </div>

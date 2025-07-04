@@ -1,181 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mapa Visual del Sitio | Sugar Pastelería</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        body {
-            background: #fbcfe8;
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 40px 0;
-        }
-
-        .mapa-visual {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .nodo {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-
-        .nodo a {
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .icono-nodo {
-            background: #fff;
-            color: #ec4899;
-            border-radius: 16px;
-            padding: 25px;
-            font-size: 2.2rem;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-            transition: transform 0.2s ease;
-        }
-
-        .icono-nodo:hover {
-            transform: scale(1.1);
-        }
-
-        .titulo-nodo {
-            font-family: 'Fredoka', sans-serif;
-            font-size: 1.2rem;
-            color: #ec4899;
-            font-weight: bold;
-        }
-
-        .subtitulo-nodo {
-            font-size: 1rem;
-            color: #e77eb1;
-        }
-
-        .ramas {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 50px 70px;
-            margin-top: 20px;
-        }
-
-@media (max-width: 900px) {
+  <meta charset="UTF-8">
+  <title>Mapa Visual del Sitio | Sugar Pastelería</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
     body {
-        padding: 0;
+      background: #fbcfe8;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 40px 0;
     }
-    .mapa-visual {
-        width: 100vw;
-        max-width: 100vw;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .ramas {
-        width: 100vw;
-        max-width: 100vw;
-        padding: 0 0 0 0;
-        justify-content: center;
-        gap: 24px 0;
-    }
-}
 
-@media (max-width: 600px) {
-    body {
-        padding: 0;
-    }
     .mapa-visual {
-        width: 100vw;
-        max-width: 100vw;
-        padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
     }
-    .ramas {
-        width: 100vw;
-        max-width: 100vw;
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
-        padding: 0;
+
+    .fila {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+
     .nodo {
-        width: 92vw;
-        max-width: 340px;
-        min-width: unset;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 200px;
+      transition: transform 0.2s ease;
     }
+
+    .nodo a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .icono-nodo {
+      background: #fff;
+      color: #ec4899;
+      border-radius: 20px;
+      padding: 25px;
+      font-size: 2.4rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+    }
+
+    .icono-nodo:hover {
+      transform: scale(1.1);
+    }
+
+    .titulo-nodo {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 1.2rem;
+      color: #ec4899;
+      font-weight: bold;
+    }
+
+    .subtitulo-nodo {
+      font-size: 1rem;
+      color: #e77eb1;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+  .nodo {
+    width: 90vw;
+    max-width: none;
+  }
+
+  .icono-nodo {
+    font-size: 4rem;
+    padding: 45px;
+    border-radius: 28px;
+  }
+
+  .titulo-nodo {
+    font-size: 2rem;
+  }
+
+  .subtitulo-nodo {
+    font-size: 1.4rem;
+  }
+
+  .fila {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 }
-    </style>
+
+  </style>
 </head>
 <body>
-    <div class="mapa-visual">
-        <!-- INICIO -->
-        <div class="nodo">
-            <a href="index.html">
-                <div class="icono-nodo"><i class="fa-solid fa-house"></i></div>
-                <div class="titulo-nodo">Inicio</div>
-                <div class="subtitulo-nodo">index.html</div>
-            </a>
-        </div>
-
-        <!-- CATEGORÍAS -->
-        <div class="ramas">
-            <div class="nodo"><a href="tortaClasica.html">
-                <div class="icono-nodo"><i class="fa-solid fa-cake-candles"></i></div>
-                <div class="titulo-nodo">Tortas</div>
-                <div class="subtitulo-nodo">tortaClasica.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="galletas.html">
-                <div class="icono-nodo"><i class="fa-solid fa-cookie-bite"></i></div>
-                <div class="titulo-nodo">Galletas</div>
-                <div class="subtitulo-nodo">galletas.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="cupquets.html">
-                <div class="icono-nodo"><i class="fa-solid fa-birthday-cake"></i></div>
-                <div class="titulo-nodo">Cupcakes</div>
-                <div class="subtitulo-nodo">cupquets.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="postres.html">
-                <div class="icono-nodo"><i class="fa-solid fa-ice-cream"></i></div>
-                <div class="titulo-nodo">Postres</div>
-                <div class="subtitulo-nodo">postres.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="box.html">
-                <div class="icono-nodo"><i class="fa-solid fa-box"></i></div>
-                <div class="titulo-nodo">Boxs</div>
-                <div class="subtitulo-nodo">box.html</div>
-            </a></div>
-        </div>
-
-        <!-- OTRAS SECCIONES -->
-        <div class="ramas">
-            <div class="nodo"><a href="carrito.html">
-                <div class="icono-nodo"><i class="fa-solid fa-cart-shopping"></i></div>
-                <div class="titulo-nodo">Carrito</div>
-                <div class="subtitulo-nodo">carrito.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="somos.html">
-                <div class="icono-nodo"><i class="fa-solid fa-users"></i></div>
-                <div class="titulo-nodo">Quiénes Somos</div>
-                <div class="subtitulo-nodo">somos.html</div>
-            </a></div>
-
-            <div class="nodo"><a href="contacto.html">
-                <div class="icono-nodo"><i class="fa-solid fa-envelope"></i></div>
-                <div class="titulo-nodo">Contacto</div>
-                <div class="subtitulo-nodo">contacto.html</div>
-            </a></div>
-        </div>
+  <div class="mapa-visual">
+    <!-- Inicio -->
+    <div class="fila">
+      <div class="nodo">
+        <a href="index.html">
+          <div class="icono-nodo"><i class="fa-solid fa-house"></i></div>
+          <div class="titulo-nodo">Inicio</div>
+          <div class="subtitulo-nodo">index.html</div>
+        </a>
+      </div>
     </div>
+
+    <!-- Categorías -->
+    <div class="fila">
+      <div class="nodo">
+        <a href="tortaClasica.html">
+          <div class="icono-nodo"><i class="fa-solid fa-cake-candles"></i></div>
+          <div class="titulo-nodo">Tortas</div>
+          <div class="subtitulo-nodo">tortaClasica.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="galletas.html">
+          <div class="icono-nodo"><i class="fa-solid fa-cookie-bite"></i></div>
+          <div class="titulo-nodo">Galletas</div>
+          <div class="subtitulo-nodo">galletas.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="cupquets.html">
+          <div class="icono-nodo"><i class="fa-solid fa-birthday-cake"></i></div>
+          <div class="titulo-nodo">Cupcakes</div>
+          <div class="subtitulo-nodo">cupquets.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="postres.html">
+          <div class="icono-nodo"><i class="fa-solid fa-ice-cream"></i></div>
+          <div class="titulo-nodo">Postres</div>
+          <div class="subtitulo-nodo">postres.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="box.html">
+          <div class="icono-nodo"><i class="fa-solid fa-box"></i></div>
+          <div class="titulo-nodo">Boxs</div>
+          <div class="subtitulo-nodo">box.html</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Otras secciones -->
+    <div class="fila">
+      <div class="nodo">
+        <a href="carrito.html">
+          <div class="icono-nodo"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="titulo-nodo">Carrito</div>
+          <div class="subtitulo-nodo">carrito.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="somos.html">
+          <div class="icono-nodo"><i class="fa-solid fa-users"></i></div>
+          <div class="titulo-nodo">Quiénes Somos</div>
+          <div class="subtitulo-nodo">somos.html</div>
+        </a>
+      </div>
+      <div class="nodo">
+        <a href="contacto.html">
+          <div class="icono-nodo"><i class="fa-solid fa-envelope"></i></div>
+          <div class="titulo-nodo">Contacto</div>
+          <div class="subtitulo-nodo">contacto.html</div>
+        </a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
