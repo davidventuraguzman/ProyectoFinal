@@ -492,7 +492,7 @@ img {
 }
 .pie-pagina .info a:hover {
     color: var(--rosado-fuerte);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {

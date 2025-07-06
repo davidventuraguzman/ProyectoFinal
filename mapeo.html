@@ -73,35 +73,59 @@
         }
 
         /* RESPONSIVE */
-        @media (max-width: 768px) {
-            .nodo a {
-                flex-direction: row;
-                align-items: center;
-                justify-content: flex-start;
-                gap: 16px;
-                text-align: left;
-            }
+@media (max-width: 768px) {
+    .mapa-visual{
+        padding-left: 11rem;
+    }
+    .nodo {
+        width: 92vw;
+        max-width: 360px;
+        margin: 0 auto 20px auto;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: flex-start; 
+    }
+    .nodo a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        text-align: left;
+        width: 100%;
+    }
+    .ramas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado vertical uniforme entre los nodos */
+}
+    .icono-nodo {
+        font-size: 1.6rem;
+        padding: 14px;
+        min-width: 50px;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
 
-            .icono-nodo {
-                margin-bottom: 0;
-                font-size: 2rem;
-                padding: 20px;
-            }
+    .contenedor-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* importante para alinear texto a la izquierda */
+    }
 
-            .titulo-nodo,
-            .subtitulo-nodo {
-                text-align: left;
-            }
+    .titulo-nodo {
+        font-size: 1rem;
+        margin-bottom: 2px;
+        text-align: left;
+    }
 
-            .contenedor-texto {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .nodo {
-                align-items: flex-start;
-            }
-        }
+    .subtitulo-nodo {
+        font-size: 0.85rem;
+        text-align: left;
+    }
+}
     </style>
 </head>
 
@@ -120,7 +144,8 @@
 
         <!-- CATEGORÍAS -->
         <div class="ramas">
-            <div class="nodo"><a href="tortaClasica.html">
+            <div class="nodo">
+                <a href="tortaClasica.html">
                     <div class="icono-nodo"><i class="fa-solid fa-cake-candles"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Tortas</div>
@@ -128,7 +153,8 @@
                     </div>
                 </a></div>
 
-            <div class="nodo"><a href="galletas.html">
+            <div class="nodo">
+                <a href="galletas.html">
                     <div class="icono-nodo"><i class="fa-solid fa-cookie-bite"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Galletas</div>
@@ -136,7 +162,8 @@
                     </div>
                 </a></div>
 
-            <div class="nodo"><a href="cupquets.html">
+            <div class="nodo">
+                <a href="cupquets.html">
                     <div class="icono-nodo"><i class="fa-solid fa-birthday-cake"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Cupcakes</div>
@@ -152,7 +179,8 @@
                     </div>
                 </a></div>
 
-            <div class="nodo"><a href="box.html">
+            <div class="nodo">
+                <a href="box.html">
                     <div class="icono-nodo"><i class="fa-solid fa-box"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Box</div>
@@ -163,7 +191,8 @@
 
         <!-- OTRAS SECCIONES -->
         <div class="ramas">
-            <div class="nodo"><a href="carrito.html">
+            <div class="nodo">
+                <a href="carrito.html">
                     <div class="icono-nodo"><i class="fa-solid fa-cart-shopping"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Carrito</div>
@@ -171,7 +200,8 @@
                     </div>
                 </a></div>
 
-            <div class="nodo"><a href="somos.html">
+            <div class="nodo">
+                <a href="somos.html">
                     <div class="icono-nodo"><i class="fa-solid fa-users"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">¿Quienes somos?</div>
@@ -179,7 +209,8 @@
                     </div>
                 </a></div>
 
-            <div class="nodo"><a href="contacto.html">
+            <div class="nodo">
+                <a href="contacto.html">
                     <div class="icono-nodo"><i class="fa-solid fa-envelope"></i></div>
                     <div class="contenedor-texto">
                         <div class="titulo-nodo">Contacto</div>
