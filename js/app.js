@@ -49,7 +49,8 @@ const productos = {
                             data-nombre="TORTA HELLO KITTY" 
                             data-precio="261.00" 
                             data-img="img/pastel1.jpg">
-                            <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span data-section="productos" data-value="boton">Agregar</span> 
                     </button>
 					<p class="price">S/261 <span>S/290</span></p>
 				</div>
@@ -74,7 +75,8 @@ const productos = {
                             data-nombre="MINI TORTA CON FLORES" 
                             data-precio="95.00" 
                             data-img="img/pastel2.jpg">
-                            <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span data-section="productos" data-value="boton">Agregar</span> 
                     </button>
 					<p class="price">S/52 <span>S/65</span></p>
                     
@@ -99,7 +101,8 @@ const productos = {
                             data-nombre="TORTA CORAZÓN ROSADO" 
                             data-precio="80.00" 
                             data-img="img/pastel3.jpg">
-                            <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span data-section="productos" data-value="boton">Agregar</span> 
                     </button>
 					<p class="price">S/80</p>
                     
@@ -124,7 +127,8 @@ const productos = {
                             data-nombre="REVELACIÓN DE SEXO" 
                             data-precio="245.00" 
                             data-img="img/pastel4.jpg">
-                            <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span data-section="productos" data-value="boton">Agregar</span> 
                     </button>
 					<p class="price">S/245</p>
 				</div>
@@ -150,7 +154,8 @@ const productos = {
                         data-nombre="UNICORNIO" 
                         data-precio="204.00" 
                         data-img="img/pastel5.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/204 <span>S/240</span></p>
             </div>
@@ -172,7 +177,8 @@ const productos = {
                         data-nombre="Cupcake chocolate" 
                         data-precio="55.00" 
                         data-img="img/pastel6.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/55</p>
             </div>
@@ -194,7 +200,8 @@ const productos = {
                         data-nombre="torta red velvet" 
                         data-precio="150.00" 
                         data-img="img/pastel7.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/150</p>
             </div>
@@ -218,7 +225,8 @@ const productos = {
                         data-nombre="torta de zanahoria" 
                         data-precio="153.00" 
                         data-img="img/pastel8.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/153 <span>S/170</span></p>
             </div>
@@ -244,7 +252,8 @@ const productos = {
                             data-nombre="torta hello kitty" 
                             data-precio="261.00" 
                             data-img="img/pastel1.jpg">
-                            <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span data-section="productos" data-value="boton">Agregar</span> 
                     </button>
 					<p class="price">S/261 <span>S/290</span></p>
 				</div>
@@ -267,7 +276,8 @@ const productos = {
                         data-nombre="cupcake chocolate" 
                         data-precio="95.00" 
                         data-img="img/pastel10.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/95</p>
             </div>
@@ -289,7 +299,8 @@ const productos = {
                         data-nombre="torta red velvet" 
                         data-precio="310.00" 
                         data-img="img/pastel11.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/310</p>
             </div>
@@ -313,7 +324,8 @@ const productos = {
                         data-nombre="torta de zanahoria" 
                         data-precio="90.00" 
                         data-img="img/pastel12.jpg">
-                        <i class="fa-solid fa-cart-plus" data-section="productos" data-value="boton"></i> Agregar 
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span data-section="productos" data-value="boton">Agregar</span> 
                 </button>
                 <p class="price">S/90 <span>S/100</span></p>
             </div>

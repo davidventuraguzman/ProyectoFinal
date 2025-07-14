@@ -2,6 +2,10 @@
     "header":{
         "inicio": "Inicio",
         "categorias": "Categorías",
+        "tortas": "TORTAS",
+        "cupcakes": "CUPCAKES",
+        "galletas": "GALLETAS",
+        "postres": "POSTRES",
         "quienes_somos": "Quiénes somos",
         "contacto": "Contacto"
     },
@@ -40,9 +44,7 @@
         "horarios_p":"Lunes - Sábado 10am - 8pm",
         "mapeo":"Mapeo",
         "mapeo_p":"Mapeo Web",
-        "redes_sociales":"Redes Sociales"
-    },
-    "pie_de_pagina":{
+        "redes_sociales":"Redes Sociales",
         "derechos":"Todos los derechos reservados © 2025 Zucarella Pasteleria, desarrollado por Poveda, Romero, Guzman y Ventura"
-    }
+    }    
 }
