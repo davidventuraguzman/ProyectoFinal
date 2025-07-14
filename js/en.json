@@ -1,0 +1,48 @@
+{
+    "header":{
+        "inicio": "Start",
+        "categorias": "Categories",
+        "quienes_somos": "Who we are",
+        "contacto": "Contact"
+    },
+    "carrusel":{
+        "subtitulo_1": "Flavor that melts hearts!",
+        "parrafo_1": "Surprise her with our cake box plus two personalized cupcakes. Order and design it your way! We'll make your sentiment a reality; a sweet touch will bring a smile to her face.",
+        "subtitulo_2": "The perfect craving...",
+        "parrafo_2": "Small in size, giant in detail and flavor. Our cookies with personalized packaging will be your best choice for gifting your loved ones, made with the finest ingredients. Don't say no to a small gift...",
+        "subtitulo_3": "The piece of happiness you were waiting for",
+        "parrafo_3": "Our cakes are made with love and designed to surprise. Fluffy, creamy, and perfect for any special occasion. Because every day deserves a little bit of magic!",
+        "subtitulo_4": "Small, sweet and full of joy!",
+        "parrafo_4": "They're an explosion of flavor and tenderness. Decorated with soft cream and irresistible details, they're the perfect gift to brighten your day or celebrate in style. Try them all!"
+    },
+    "bienvenido":{
+        "bienvenidop":"Welcome to",
+        "titulo": "Sugar Pastelería",
+        "parrafo": "Your sweet corner, where flavors come alive and each creation tells a story. Let yourself be tempted by our custom cakes, artisanal desserts, and delicacies that transform any moment into a celebration. We're passionate about what we do, and it shows in every flavor, every decoration, every smile we create. Explore our world of flavors and discover why at Sugar, art is baked. From classic cakes to creative cupcakes, every bite is a unique experience. We're here to sweeten your days and make every celebration unforgettable. Thank you for choosing us!",
+        "boton": "See more"
+    },
+    "productos":{
+        "titulo": "Best Products",
+        "destacados": "Featured",
+        "mas_recientes": "Most Recent",
+        "mas_vendidos": "Best Sellers",
+        "boton": "Add"
+    },
+    "ubicacion":{
+        "titulo": "Locate us in..."
+    },
+    "footer":{
+        "direccion":"Address",
+        "direccion_p":"Av. Uceda Meza 548 Urb. Las Quintanas - Trujillo",
+        "dias_especiales": "Special Days",
+        "dias_especiales_p":"Sundays and holidays 11am - 3pm",
+        "horarios": "Schedules",
+        "horarios_p":"Monday - Saturday 10am - 8pm",
+        "mapeo":"Mapping",
+        "mapeo_p":"Web Mapping",
+        "redes_sociales":"Social networks"
+    },
+    "pie_de_pagina":{
+        "derechos":"All rights reserved © 2025 Zucarella Pasteleria, developed by Poveda, Romero, Guzman and Ventura"
+    }
+}

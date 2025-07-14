@@ -1,0 +1,48 @@
+{
+    "header":{
+        "inicio": "Inicio",
+        "categorias": "Categorías",
+        "quienes_somos": "Quiénes somos",
+        "contacto": "Contacto"
+    },
+    "carrusel":{
+        "subtitulo_1": "¡Sabor que derrite corazones!",
+        "parrafo_1": "Sorprendel@ con nuestro box de torta más dos cupcakes personalizados, pidelo y diseñalo a tu manera!! Nosotros hacemos tu sentimiento realidad, un dulce detalle sacará buenas sonrisas.",
+        "subtitulo_2": "El antojo perfecto...",
+        "parrafo_2": "Pequeña en tamaño, gigante en detalles y sabor. Nuestras galletas con envase perzonalizado serán tu mejor opción para regalar a tus seres más queridos, hechos con los más finos ingredientes. No le digas no, a un pequeño detalle..",
+        "subtitulo_3": "El pedazo de felicidad que estabas esperando",
+        "parrafo_3": "Nuestras tortas están hechas con amor y pensada para sorprender. Esponjosa, cremosa y perfecta para cualquier ocasión especial. ¡Porque cada día merece un pedacito de magia!",
+        "subtitulo_4": "¡Pequeños, dulces y llenos de alegría!",
+        "parrafo_4": "Son una explosión de sabor y ternura. Decorados con crema suave y detalles irresistibles, son el detalle perfecto para alegrar tu día o celebrar en grande. ¡Pruébalos todos!"
+    },
+    "bienvenido":{
+        "bienvenidop":"¡Bienvenido a",
+        "titulo": "Sugar Pastelería",
+        "parrafo": "Tu rincón dulce, donde los sabores cobran vida y cada creación cuenta una historia, déjate tentar por nuestras tortas personalizadas, postres artesanales y delicias que transforman cualquier momento en una celebración. Nos apasiona lo que hacemos, y eso se nota en cada sabor, cada decoración, cada sonrisa que provocamos. Explora nuestro mundo de sabores y descubre por qué en Sugar, el arte se hornea. Desde tortas clásicas hasta cupcakes creativos, cada bocado es una experiencia única. Estamos aquí para endulzar tus días y hacer que cada celebración sea inolvidable. ¡Gracias por elegirnos!",
+        "boton": "Ver más"
+    },
+    "productos":{
+        "titulo": "Mejores Productos",
+        "destacados": "Destacados",
+        "mas_recientes": "Más Recientes",
+        "mas_vendidos": "Más Vendidos",
+        "boton": "Agregar"
+    },
+    "ubicacion":{
+        "titulo": "Ubicanos en..."
+    },
+    "footer":{
+        "direccion":"Dirección",
+        "direccion_p":"Av. Uceda Meza 548 Urb. Las Quintanas - Trujillo",
+        "dias_especiales":"Días Especiales",
+        "dias_especiales_p":"Domingos y feriados 11am - 3pm",
+        "horarios": "Horarios",
+        "horarios_p":"Lunes - Sábado 10am - 8pm",
+        "mapeo":"Mapeo",
+        "mapeo_p":"Mapeo Web",
+        "redes_sociales":"Redes Sociales"
+    },
+    "pie_de_pagina":{
+        "derechos":"Todos los derechos reservados © 2025 Zucarella Pasteleria, desarrollado por Poveda, Romero, Guzman y Ventura"
+    }
+}
