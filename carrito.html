@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="encabezado">
-        <div class="contenedor-navegacion">
+		<div class="contenedor-navegacion">
 			<div class="contenido-navegacion contenedor">
 				<div class="logo">
 					<h2>Sugar Pasteleria</h2>
@@ -23,16 +23,26 @@
 					<i class="fa-solid fa-bars"></i>
 				</button>
 				<nav class="navegacion">
-					<a href="index.html">Inicio</a>
-					<a href="#" class="submenu-toggle">Categorias</a>
+					<a href="index.html" data-section="header" data-value="inicio">Inicio</a>
+					<a href="#" class="submenu-toggle" data-section="header" data-value="categorias">Categorías</a>
 					<ul class="submenu">
-						<li><a href="tortaClasica.html">TORTAS</a></li>
-						<li><a href="cupquets.html">CUPCAKES</a></li>
-						<li><a href="galletas.html">GALLETAS</a></li>
-						<li><a href="postres.html">POSTRES</a></li>
+						<li><a href="tortaClasica.html" data-section="header" data-value="tortas">TORTAS</a></li>
+						<li><a href="cupquets.html" data-section="header" data-value="cupcakes">CUPCAKES</a></li>
+						<li><a href="galletas.html" data-section="header" data-value="galletas">GALLETAS</a></li>
+						<li><a href="postres.html" data-section="header" data-value="postres">POSTRES</a></li>
 					</ul>
-					<a href="somos.html">Quiénes somos</a>
-                    <a href="contacto.html">Contacto</a>
+					<a href="somos.html" data-section="header" data-value="quienes_somos">Quiénes somos</a>
+					<a href="contacto.html" data-section="header" data-value="contacto">Contacto</a>
+					<div class="selector-idioma">
+						<button class="btn-idioma" id="boton-idioma" type="button">
+							<i class="fa-solid fa-globe"></i>
+							<i class="fa-solid fa-caret-down"></i>
+						</button>
+						<ul class="lista-idiomas">
+							<li><a href="#" data-language="es">Español (ES)</a></li>
+							<li><a href="#" data-language="en">English (EN)</a></li>
+						</ul>
+					</div>
 					<a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
 				</nav>
 			</div>
@@ -48,24 +58,25 @@
 		<div class="pie-pagina">
 			<div class="contenedor-piepagina contenedor">
 				<div class="info">
-					<h3>Dirección</h3>
-					<p>Av. Uceda Meza 548 Urb. Las Quintanas - Trujillo</p>
+					<h3 data-section="footer" data-value="direccion">Dirección</h3>
+					<p data-section="footer" data-value="direccion_p">Av. Uceda Meza 548 Urb. Las Quintanas - Trujillo
+					</p>
 				</div>
 				<div class="info">
-					<h3>Días especiales</h3>
-					<p>Domingos y feriados 11am - 3pm</p>
+					<h3 data-section="footer" data-value="dias_especiales">Días especiales</h3>
+					<p data-section="footer" data-value="dias_especiales_p">Domingos y feriados 11am - 3pm</p>
 					<p>+51 991 741 373</p>
 				</div>
 				<div class="info">
-					<h3>Horarios</h3>
-					<p>Lunes - Sábado 10am - 8pm</p>
+					<h3 data-section="footer" data-value="horarios">Horarios</h3>
+					<p data-section="footer" data-value="horarios_p">Lunes - Sábado 10am - 8pm</p>
 				</div>
 				<div class="info">
-					<h3>Mapeo</h3>
-					<p><a href="mapeo.html">Mapeo web</a></p>
+					<h3 data-section="footer" data-value="mapeo">Mapeo</h3>
+					<p><a href="mapeo.html"" data-section="footer" data-value="mapeo_p">Mapeo web</a></p>
 				</div>
-				<div class="info">
-					<h3>Redes sociales</h3>
+				<div class=" info">
+					<h3 data-section="footer" data-value="redes_sociales">Redes sociales</h3>
 					<div class="rede-sociales redes-pie">
 						<a href="https://www.facebook.com/sugarencasa/" target="_blank">
 							<i class="fa-brands fa-square-facebook"></i>
@@ -78,10 +89,12 @@
 			</div>
 		</div>
 		<footer class="footer">
-			<p>Todos los derechos reservados &copy; 2025 Sugar Pasteleria, desarrollado por Poveda, Romero, Guzman y
+			<p data-section="footer" data-value="derechos">Todos los derechos reservados &copy; 2025 Zucarella
+				Pasteleria, desarrollado por Poveda, Romero, Guzman y
 				Ventura</p>
 		</footer>
 	</section>
 	<script src="js/app.js"></script>
+	<script src="js/idiomas.js"></script>
 </body>
 </html>

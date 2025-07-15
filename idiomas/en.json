@@ -46,5 +46,25 @@
         "mapeo_p":"Web Mapping",
         "redes_sociales":"Social networks",
         "derechos":"All rights reserved © 2025 Zucarella Pasteleria, developed by Poveda, Romero, Guzman and Ventura"
+    },
+    "somos":{
+        "sobre_nosotros": "About Us",
+        "subtitulo_sobre": "The group that seeks to excel in Trujillo",
+        "parrafo_sobre": "We are a Peruvian company dedicated to the production of bakery and pastry products. It was formally incorporated on May 2, 2024, under RUC number 20612551724, which has E.I.R.L. (Limited Liability Individual Company), a legal form used by small or medium-sized businesses with a single owner. Its legal headquarters are located at Hermanos Uceda Meza Avenue No. 548, in the Las Quintanas urbanization, Trujillo District, La Libertad.",
+        "creatividad": "Creativity.",
+        "calidad": "High quality.",
+        "puntualidad": "Punctuality.",
+        "historia": "Our history",
+        "subtitulo_historia": "Passion for its artisanal flavor and Peruvian flavor",
+        "parrafo_historia": "SUGAR PASTELERÍA has stood out for offering a variety of pastry products, including custom cakes and desserts, with a focus on quality and design. Our company has used digital platforms such as Facebook and Instagram to promote its products and facilitate orders, offering home delivery services. Despite its recent founding, SUGAR PASTELERÍA has managed to position itself in the local Trujillo market, attracting a clientele that values the quality and presentation of its products. Its focus on innovation and customer service has been key to its growth in the competitive pastry sector.",
+        "mision": "Our mission",
+        "subtitulo_mision": "To be recognized as one of the leading pastry shops",
+        "parrafo_mision": "At SUGAR PASTELERÍA E.I.R.L., we are dedicated to creating unique sweet experiences through pastry and baked goods made with the highest quality standards. We offer personalized cakes, creative desserts, and artisanal products that combine flavor, design, and innovation, aimed at meeting our customers' expectations for every celebration. We aspire to expand our presence through digital channels, constantly innovating in flavors, presentations, and experiences, in addition to providing excellent customer service.",
+        "servicio": "Warm customer service.",
+        "sucursales": "Open more branches throughout Trujillo.",
+        "comentario": "Receive positive feedback from people.",
+        "vision": "Our vision",
+        "subtitulo_vision": "An immediate impact on society",
+        "parrafo_vision": "We seek to be recognized as one of the leading bakeries in Trujillo and northern Peru, standing out for the quality, creativity, and customization of our products, in addition to providing a sweet, friendly, and memorable experience to each customer. In about two years, SUGAR PASTELERÍA E.I.R.L. is projected as a benchmark for healthy bakeries in Trujillo, creating products with natural ingredients, without losing the flavor that brightens every special moment, but above all, inspiring smiles and creating sweet memories in every home, being the bakery that accompanies our customers' most important moments. Finally, we always offer high-quality desserts at fair prices, allowing all families to enjoy special moments without worrying about the cost."
     }
 }

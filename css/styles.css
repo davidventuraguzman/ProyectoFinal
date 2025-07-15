@@ -947,57 +947,50 @@ img {
     }
 }
 /* Selector de idioma */
+/* === ESTILO PARA EL SELECTOR DE IDIOMA === */
 .selector-idioma {
     position: relative;
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 10px;
 }
 
 .btn-idioma {
-    background-color: transparent;
+    background: none;
     border: none;
     color: var(--blanco);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     cursor: pointer;
+    font-family: var(--parrafos);
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-family: var(--parrafos);
-    padding: 10px 15px;
-    border-radius: 12px;
-    transition: background 0.18s, color 0.18s;
-    font-weight: 500;
-}
-
-.btn-idioma:hover,
-.selector-idioma:hover .btn-idioma {
-    color: #fff;
-    font-weight: 600;
+    gap: 5px;
+    padding: 10px;
 }
 
 .lista-idiomas {
     display: none;
     position: absolute;
-    top: 120%;
+    top: 20px;
     right: 0;
-    background: #fff0f6;
+    background-color: #fff0f6;
     box-shadow: 0 8px 24px rgba(169, 75, 44, 0.10), 0 1.5px 8px rgba(255, 192, 203, 0.10);
     border-radius: 18px;
     min-width: 170px;
     z-index: 100;
     padding: 10px 0;
-    transition: opacity 0.25s, transform 0.25s;
     opacity: 0;
     pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .selector-idioma:hover .lista-idiomas,
-.selector-idioma:focus-within .lista-idiomas {
+.lista-idiomas:hover {
     display: block;
     opacity: 1;
     pointer-events: auto;
     transform: translateY(1px) scale(1.03);
 }
+
 
 .lista-idiomas li {
     list-style: none;
@@ -1019,7 +1012,4 @@ img {
     background: var(--rosado-semifuerte);
     color: #fff;
     transform: scale(1.07);
-    font-weight: 600;
-    letter-spacing: 1px;
-    box-shadow: 0 2px 8px #f8d3e0;
 }

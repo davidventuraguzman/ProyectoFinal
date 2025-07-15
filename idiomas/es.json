@@ -43,8 +43,28 @@
         "horarios": "Horarios",
         "horarios_p":"Lunes - Sábado 10am - 8pm",
         "mapeo":"Mapeo",
-        "mapeo_p":"Mapeo Web",
+        "mapeo_p":"Mapeo web",
         "redes_sociales":"Redes Sociales",
         "derechos":"Todos los derechos reservados © 2025 Zucarella Pasteleria, desarrollado por Poveda, Romero, Guzman y Ventura"
-    }    
+    },
+    "somos":{
+        "sobre_nosotros": "Sobre nosotros",
+        "subtitulo_sobre": "El grupo que busca sobresalir en tierra trujillana",
+        "parrafo_sobre": "Somos una empresa peruana dedicada a la elaboración de productos de panadería y pastelería. Fue formalmente constituida el 2 de mayo de 2024, bajo el número de RUC 20612551724, el cual tiene E.I.R.L.; que significa Empresa Individual de Responsabilidad Limitada, una forma jurídica usada por negocios pequeños o medianos que tienen un solo dueño. Tiene su sede legal en la Avenida Hermanos Uceda Meza N.º 548, en la urbanización Las Quintanas, distrito de Trujillo, La Libertad.",
+        "creatividad": "Creatividad.",
+        "calidad": "Alta calidad.",
+        "puntualidad": "Puntualidad.",
+        "historia": "Nuestra historia",
+        "subtitulo_historia": "Pasión por lo artesanal y el sabor peruano",
+        "parrafo_historia": "SUGAR PASTELERÍA ha destacado por ofrecer una variedad de productos de repostería, incluyendo tortas personalizadas y postres, con un enfoque en la calidad y el diseño. Nuestra empresa ha utilizado plataformas digitales como Facebook e Instagram para promocionar sus productos y facilitar pedidos, ofreciendo servicios de entrega a domicilio. A pesar de su reciente fundación, SUGAR PASTELERÍA ha logrado posicionarse en el mercado local de Trujillo, atrayendo a una clientela que valora la calidad y la presentación de los productos. Su enfoque en la innovación y la atención al cliente ha sido clave para su crecimiento en el competitivo sector de la pastelería.",
+        "mision": "Nuestra misión",
+        "subtitulo_mision": "Ser reconocidos como una de las pastelerías líderes",
+        "parrafo_mision": "En SUGAR PASTELERÍA E.I.R.L. nos dedicamos a crear experiencias dulces únicas a través de productos de pastelería y repostería elaborados con los más altos estándares de calidad. Ofrecemos tortas personalizadas, postres creativos y productos artesanales que combinan sabor, diseño e innovación, orientados a satisfacer las expectativas de nuestros clientes en cada celebración. Aspiramos a expandir nuestra presencia a través de canales digitales, innovando constantemente en sabores, presentaciones y experiencias, además de un buen trato hacia nuestros clientes.",
+        "servicio": "Un servicio cálido al cliente.",
+        "sucursales": "Aperturar más sucursales en todo Trujillo.",
+        "comentario": "Recibir un comentario positivo de las personas.",
+        "vision": "Nuestra visión",
+        "subtitulo_vision": "Un efecto inmediato en la sociedad",
+        "parrafo_vision": "Buscamos ser reconocidos como una de las pastelerías líderes en Trujillo y el norte del Perú, destacando por la calidad, creatividad y personalización de nuestros productos aparte de brindar una experiencia dulce, cercana y memorable a cada cliente. De aqui a unos 2 años, SUGAR PASTELERÍA E.I.R.L. se proyecta como una referencia de pastelería saludable en Trujillo, elaborando productos con ingredientes naturales, sin perder el sabor que alegra cada momento especial, pero sobre todo inspirar sonrisas y crear recuerdos dulces en cada hogar, siendo la pastelería que acompaña los momentos más importantes de nuestros clientes. Por último, siempre ofrecer postres de alta calidad a precios justos, que permitan a todas las familias disfrutar de momentos especiales sin preocuparse por el costo."
+    }
 }
