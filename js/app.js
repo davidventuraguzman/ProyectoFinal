@@ -400,10 +400,10 @@ if (window.location.pathname.includes('carrito.html')) {
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         const contenedor = document.querySelector('.carrito-contenido');
         if (carrito.length === 0) {
-            contenedor.innerHTML = '<p>El carrito está vacío.</p>';
+            contenedor.innerHTML = '<p data-section="carrito" data-value="vacio">El carrito está vacío.</p>';
             return;
         }
-        let html = '<table><tr><th>Producto</th><th>Precio</th><th>Cantidad</th><th>Total</th><th></th></tr>';
+        let html = '<table><tr><th data-section="carrito" data-value="producto">Producto</th><th data-section="carrito" data-value="precio">Precio</th><th data-section="carrito" data-value="cantidad">Cantidad</th><th data-section="carrito" data-value="total">Total</th><th></th></tr>';
         carrito.forEach((item, i) => {
             html += `
                 <tr>
@@ -415,7 +415,7 @@ if (window.location.pathname.includes('carrito.html')) {
                         <button class="mas" data-index="${i}">+</button>
                     </td>
                     <td>S/. ${(item.precio * item.cantidad).toFixed(2)}</td>
-                    <td><button class="eliminar" data-index="${i}">Eliminar</button></td>
+                    <td><button class="eliminar" data-index="${i}" data-section="carrito" data-value="eliminar">Eliminar</button></td>
                 </tr>
             `;
         });
@@ -429,7 +429,7 @@ if (window.location.pathname.includes('carrito.html')) {
             btnWhatsapp = document.createElement('button');
             btnWhatsapp.id = 'btn-whatsapp';
             btnWhatsapp.className = 'btn-whatsapp';
-            btnWhatsapp.innerHTML = '<i class="fa-brands fa-whatsapp"></i> FINALIZAR PEDIDO POR WHATSAPP';
+            btnWhatsapp.innerHTML = '<i class="fa-brands fa-whatsapp"></i> <span data-section="carrito" data-value="finalizar">FINALIZAR PEDIDO POR WHATSAPP</span>';
             btnWhatsapp.onclick = function () {
                 let mensaje = '¡Hola! Quiero hacer un pedido:%0A';
                 let total = 0;

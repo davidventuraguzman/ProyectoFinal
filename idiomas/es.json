@@ -7,7 +7,8 @@
         "galletas": "GALLETAS",
         "postres": "POSTRES",
         "quienes_somos": "Quiénes somos",
-        "contacto": "Contacto"
+        "contacto": "Contacto",
+        "categorias2": "CATEGORÍAS"
     },
     "carrusel":{
         "subtitulo_1": "¡Sabor que derrite corazones!",
@@ -66,5 +67,30 @@
         "vision": "Nuestra visión",
         "subtitulo_vision": "Un efecto inmediato en la sociedad",
         "parrafo_vision": "Buscamos ser reconocidos como una de las pastelerías líderes en Trujillo y el norte del Perú, destacando por la calidad, creatividad y personalización de nuestros productos aparte de brindar una experiencia dulce, cercana y memorable a cada cliente. De aqui a unos 2 años, SUGAR PASTELERÍA E.I.R.L. se proyecta como una referencia de pastelería saludable en Trujillo, elaborando productos con ingredientes naturales, sin perder el sabor que alegra cada momento especial, pero sobre todo inspirar sonrisas y crear recuerdos dulces en cada hogar, siendo la pastelería que acompaña los momentos más importantes de nuestros clientes. Por último, siempre ofrecer postres de alta calidad a precios justos, que permitan a todas las familias disfrutar de momentos especiales sin preocuparse por el costo."
+    },
+    "contacto":{
+        "estamos": "Estamos aquí para ti",
+        "estamos_p": "Ya sea para resolver tus dudas, personalizar tu pedido o simplemente conocernos, estaremos encantados de ayudarte",
+        "se_parte": "¡Se parte de nuestra comunidad!",
+        "pregunta": "¿Quieres ser el primero en saber nuestros descuentos y promociones?",
+        "sucribete": "Suscríbete a nuestra página y recibe un 10% de descuento en tu primera compra.",
+        "nombre": "Nombre",
+        "apellidos": "Apellidos",
+        "correo": "Correo",
+        "telefono": "Teléfono",
+        "mensaje": "Mensaje",
+        "registro": "¡Registro exitoso!",
+        "escribe":"Escribe aquí",
+        "ejemplo": "ejemplo@ejemplo.com"
+    },
+    "carrito":{
+        "titulo":"Tus Compras",
+        "vacio": "Tu carrito está vacío",
+        "producto": "Producto",
+        "precio": "Precio",
+        "cantidad": "Cantidad",
+        "total": "Total",
+        "eliminar": "Eliminar",
+        "finalizar": "FINALIZAR PEDIDO POR WHATSAPP"
     }
 }

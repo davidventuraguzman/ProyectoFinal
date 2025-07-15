@@ -1,5 +1,4 @@
 const langButtons = document.querySelectorAll("[data-language]");
-const textsToChange = document.querySelectorAll("[data-section]");
 
 // Al hacer clic en un idioma
 langButtons.forEach((button) => {
@@ -28,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// Función que cambia el idioma usando JSON
+// Función que aplica la traducción a los elementos
 function cambiarIdioma(idioma) {
     fetch(`./idiomas/${idioma}.json`)
         .then(res => res.json())
@@ -37,8 +36,15 @@ function cambiarIdioma(idioma) {
             elementos.forEach(el => {
                 const seccion = el.getAttribute('data-section');
                 const valor = el.getAttribute('data-value');
-                if (data[seccion] && data[seccion][valor]) {
-                    el.textContent = data[seccion][valor];
+                const traduccion = data[seccion]?.[valor];
+
+                if (traduccion) {
+                    // Si es un placeholder, usar setAttribute
+                    if (el.placeholder !== undefined) {
+                        el.setAttribute("placeholder", traduccion);
+                    } else {
+                        el.textContent = traduccion;
+                    }
                 }
             });
 
@@ -47,6 +53,3 @@ function cambiarIdioma(idioma) {
         })
         .catch(error => console.error('Error al cargar el idioma:', error));
 }
-
-
-

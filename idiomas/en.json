@@ -7,7 +7,8 @@
         "galletas": "COOKIES",
         "postres": "DESSERTS",
         "quienes_somos": "Who we are",
-        "contacto": "Contact"
+        "contacto": "Contact",
+        "categorias2": "CATEGORIES"
     },
     "carrusel":{
         "subtitulo_1": "Flavor that melts hearts!",
@@ -66,5 +67,30 @@
         "vision": "Our vision",
         "subtitulo_vision": "An immediate impact on society",
         "parrafo_vision": "We seek to be recognized as one of the leading bakeries in Trujillo and northern Peru, standing out for the quality, creativity, and customization of our products, in addition to providing a sweet, friendly, and memorable experience to each customer. In about two years, SUGAR PASTELERÍA E.I.R.L. is projected as a benchmark for healthy bakeries in Trujillo, creating products with natural ingredients, without losing the flavor that brightens every special moment, but above all, inspiring smiles and creating sweet memories in every home, being the bakery that accompanies our customers' most important moments. Finally, we always offer high-quality desserts at fair prices, allowing all families to enjoy special moments without worrying about the cost."
+    },
+    "contacto":{
+        "estamos": "We are here for you",
+        "estamos_p": "Whether you want to resolve your doubts, customize your order, or simply get to know us, we will be happy to help you.",
+        "se_parte": "Be part of our community!",
+        "pregunta": "Do you want to be the first to know about our discounts and promotions?",
+        "suscribete": "Subscribe to our page and receive a 10% discount on your first purchase.",
+        "nombre": "Name",
+        "apellidos": "Last Names",
+        "correo": "Email",
+        "telefono": "Phone",
+        "mensaje": "Message",
+        "registro": "Registration successful!",
+        "escribe": "Write here",
+        "ejemplo": "example@example.com"
+    },
+    "carrito":{
+        "titulo":"Your Purchases",
+        "vacio": "Your cart is empty",
+        "producto": "Product",
+        "precio": "Price",
+        "cantidad": "Quantity",
+        "total": "Total",
+        "eliminar": "Delete",
+        "finalizar": "FINISH ORDER BY WHATSAPP"
     }
 }
