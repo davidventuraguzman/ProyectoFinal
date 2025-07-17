@@ -11,7 +11,7 @@ body {
   font-family: var(--parrafos);
 }
 
-.logo h2 {
+.logo a {
   letter-spacing: 1px;
   font-size: 27px;
   color: var(--blanco);
@@ -23,9 +23,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 40px;
-  max-width: 1200px;
-  margin: auto;
 }
 
 h3 {

@@ -8,11 +8,6 @@ langButtons.forEach((button) => {
         localStorage.setItem("idioma", lang); // Guardar idioma seleccionado
 
         cambiarIdioma(lang);
-
-        const idiomaActual = document.getElementById("idioma-actual");
-        if (idiomaActual) {
-            idiomaActual.textContent = lang.toUpperCase();
-        }
     });
 });
 
@@ -20,11 +15,6 @@ langButtons.forEach((button) => {
 document.addEventListener("DOMContentLoaded", () => {
     const idiomaGuardado = localStorage.getItem("idioma") || "es";
     cambiarIdioma(idiomaGuardado);
-
-    const idiomaActual = document.getElementById("idioma-actual");
-    if (idiomaActual) {
-        idiomaActual.textContent = idiomaGuardado.toUpperCase();
-    }
 });
 
 // Función que aplica la traducción a los elementos
