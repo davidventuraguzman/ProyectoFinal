@@ -97,7 +97,7 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-regular fa-star"></i>
 					</div>
-					<h3 data-section="productos" data-value="torta4">Torta Boy or Girl</h3>
+					<h3 data-section="productos" data-value="torta4">Torta Niño o Niña</h3>
 					<button class="btn-agregar-carrito" 
                             data-nombre="Torta Boy or Girl" 
                             data-key="torta4"
@@ -127,7 +127,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta5">Torta Spiderman</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="TORTA SPIDERMAN" 
+                        data-nombre="Torta Spiderman" 
+                        data-key="torta5"
                         data-precio="204.00" 
                         data-img="img/pastel5.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -150,7 +151,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta6">Box Cumpleaños Amoroso</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="BOX CUMPLEAÑOS AMOROSO" 
+                        data-nombre="Box Cumpleaños Amoroso" 
+                        data-key="torta6"
                         data-precio="55.00" 
                         data-img="img/pastel6.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -173,7 +175,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta7">Torta Cinamonroll</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="TORTA CINAMONROLL" 
+                        data-nombre="Torta Cinamonroll" 
+                        data-key="torta7"
                         data-precio="150.00" 
                         data-img="img/pastel7.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -196,9 +199,10 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 </div>
-                <h3 data-section="productos" data-value="torta8">Torta Cumpleaños Mamá</h3>
+                <h3 data-section="productos" data-value="torta8">Torta Cumpleaños para Mamá</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="TORTA CUMPLEAÑOS MAMÁ" 
+                        data-nombre="Torta Cumpleaños para Mamá" 
+                        data-key="torta8"
                         data-precio="153.00" 
                         data-img="img/pastel8.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -225,7 +229,8 @@ const productos = {
 					</div>
 					<h3 data-section="productos" data-value="torta1">Torta Hello Kitty</h3>
 					<button class="btn-agregar-carrito" 
-                            data-nombre="TORTA HELLO KITTY" 
+                            data-nombre="Torta Hello Kitty" 
+                            data-key="torta1"
                             data-precio="261.00" 
                             data-img="img/pastel1.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -249,7 +254,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta9">Box Sorpresa Amorosa</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="BOX SORPRESA AMOROSA" 
+                        data-nombre="Box Sorpresa Amorosa" 
+                        data-key="torta9"
                         data-precio="95.00" 
                         data-img="img/pastel10.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -272,7 +278,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta10">Torta Blancanieves</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="TORTA BLANCANIEVES" 
+                        data-nombre="Torta Blancanieves" 
+                        data-key="torta10"
                         data-precio="310.00" 
                         data-img="img/pastel11.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -297,7 +304,8 @@ const productos = {
                 </div>
                 <h3 data-section="productos" data-value="torta11">Torta Sweet Pink</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="TORTA SWEET PINK" 
+                        data-nombre="Torta Sweet Pink" 
+                        data-key="torta11"
                         data-precio="90.00" 
                         data-img="img/pastel12.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -388,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index > -1) {
                 carrito[index].cantidad += 1;
             } else {
-                carrito.push({ nombre, key, precio, img, cantidad: 1 });
+                carrito.push({ nombre, key ,precio, img, cantidad: 1 });
             }
             localStorage.setItem('carrito', JSON.stringify(carrito));
         }
@@ -408,14 +416,14 @@ if (window.location.pathname.includes('carrito.html')) {
         if (carrito.length === 0) {
             contenedor.innerHTML = '<p data-section="carrito" data-value="vacio">El carrito está vacío.</p>';
             if (typeof cambiarIdioma === 'function') {
-                const idioma = localStorage.getItem('idioma') || 'es';
-                cambiarIdioma(idioma);
-            }
+        const idioma = localStorage.getItem('idioma') || 'es';
+        cambiarIdioma(idioma);
+    }
             return;
         }
 
         let html = '<table><tr><th data-section="carrito" data-value="producto">Producto</th><th data-section="carrito" data-value="precio">Precio</th><th data-section="carrito" data-value="cantidad">Cantidad</th><th data-section="carrito" data-value="total">Total</th><th></th></tr>';
-
+        
         carrito.forEach((item, i) => {
             html += `
                 <tr>

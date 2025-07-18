@@ -32,17 +32,17 @@
         "mas_recientes": "Más Recientes",
         "mas_vendidos": "Más Vendidos",
         "boton": "Agregar",
-        "torta1": "Torta Hello Kitty",
-        "torta2": "Box Floral",
-        "torta3": "Torta Corazón Rosado",
-        "torta4": "Torta Boy or Girl",
-        "torta5": "Torta Spiderman",
-        "torta6": "Box Cumpleaños Amoroso",
-        "torta7": "Torta Cinamonroll",
-        "torta8": "Torta Cumpleaños Mamá",
-        "torta9": "Box Sorpresa Amorosa",
-        "torta10": "Torta Blancanieves",
-        "torta11": "Torta Sweet Pink"
+        "torta1": "TORTA HELLO KITTY",
+        "torta2": "BOX FLORAL",
+        "torta3": "TORTA CORAZÓN ROSADO",
+        "torta4": "TORTA NIÑO O NIÑA",
+        "torta5": "TORTA SPIDERMAN",
+        "torta6": "BOX CUMPLEAÑOS AMOROSO",
+        "torta7": "TORTA CINAMONROLL",
+        "torta8": "TORTA CUMPLEAÑOS PARA MAMÁ",
+        "torta9": "BOX SORPRESA AMOROSA",
+        "torta10": "TORTA BLANCANIEVES",
+        "torta11": "TORTA SWEET PINK"
     },
     "ubicacion":{
         "titulo": "Ubicanos en..."
