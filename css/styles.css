@@ -947,6 +947,7 @@ img {
         white-space: nowrap;
     }
 }
+
 /* Selector de idioma */
 /* === ESTILO PARA EL SELECTOR DE IDIOMA === */
 .selector-idioma {
@@ -1013,4 +1014,13 @@ img {
     background: var(--rosado-semifuerte);
     color: #fff;
     transform: scale(1.07);
+}
+
+@media (max-width: 768px) {
+    .selector-idioma {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
 }

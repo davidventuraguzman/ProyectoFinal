@@ -6,7 +6,6 @@ langButtons.forEach((button) => {
         e.preventDefault();
         const lang = button.dataset.language;
         localStorage.setItem("idioma", lang); // Guardar idioma seleccionado
-
         cambiarIdioma(lang);
     });
 });
@@ -37,9 +36,16 @@ function cambiarIdioma(idioma) {
                     }
                 }
             });
-
             // Cambiar el atributo lang del <html>
             document.documentElement.setAttribute("lang", idioma);
         })
         .catch(error => console.error('Error al cargar el idioma:', error));
 }
+document.querySelectorAll(".nombre-producto").forEach((el) => {
+    const seccion = el.dataset.section;
+    const valor = el.dataset.value;
+    const traduccion = data[seccion]?.[valor];
+    if (traduccion) {
+        el.textContent = traduccion;
+    }
+});

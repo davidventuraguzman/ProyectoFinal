@@ -31,7 +31,18 @@
         "destacados": "Featured",
         "mas_recientes": "Most Recent",
         "mas_vendidos": "Best Sellers",
-        "boton": "Add"
+        "boton": "Add",
+        "torta1": "Hello Kitty Cake",
+        "torta2": "Floral Box",
+        "torta3": "Pink Heart Cake",
+        "torta4": "Boy or Girl Cake",
+        "torta5": "Spiderman Cake",
+        "torta6": "Loving Birthday Box",
+        "torta7": "Cinamonroll Cake",
+        "torta8": "Birthday Cake for Mom",
+        "torta9": "Loving Surprise Box",
+        "torta10": "SnowWhite Cake",
+        "torta11": "Sweet Pink Cake"
     },
     "ubicacion":{
         "titulo": "Locate us in..."

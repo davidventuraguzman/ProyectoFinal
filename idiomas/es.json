@@ -31,7 +31,18 @@
         "destacados": "Destacados",
         "mas_recientes": "Más Recientes",
         "mas_vendidos": "Más Vendidos",
-        "boton": "Agregar"
+        "boton": "Agregar",
+        "torta1": "Torta Hello Kitty",
+        "torta2": "Box Floral",
+        "torta3": "Torta Corazón Rosado",
+        "torta4": "Torta Boy or Girl",
+        "torta5": "Torta Spiderman",
+        "torta6": "Box Cumpleaños Amoroso",
+        "torta7": "Torta Cinamonroll",
+        "torta8": "Torta Cumpleaños Mamá",
+        "torta9": "Box Sorpresa Amorosa",
+        "torta10": "Torta Blancanieves",
+        "torta11": "Torta Sweet Pink"
     },
     "ubicacion":{
         "titulo": "Ubicanos en..."

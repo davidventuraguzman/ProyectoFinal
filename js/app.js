@@ -16,9 +16,10 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-regular fa-star"></i>
 					</div>
-					<h3>Torta Hello Kitty</h3>
+					<h3 data-section="productos" data-value="torta1">Torta Hello Kitty</h3>
 					<button class="btn-agregar-carrito" 
-                            data-nombre="TORTA HELLO KITTY" 
+                            data-nombre="Torta Hello Kitty" 
+                            data-key="torta1"
                             data-precio="261.00" 
                             data-img="img/pastel1.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -30,7 +31,7 @@ const productos = {
 			<!-- Producto 2 -->
 			<div class="card-product">
 				<div class="container-img">
-					<img src="img/pastel2.jpg" alt="Mini torta con flores" />
+					<img src="img/pastel2.jpg" alt="BOX FLORAL" />
 					<span class="discount">-20%</span>
 					
 				</div>
@@ -42,9 +43,10 @@ const productos = {
 						<i class="fa-regular fa-star"></i>
 						<i class="fa-regular fa-star"></i>
 					</div>
-					<h3>Box Floral</h3>
+					<h3 data-section="productos" data-value="torta2"></h3>
 					<button class="btn-agregar-carrito" 
-                            data-nombre="MINI TORTA CON FLORES" 
+                            data-nombre="Box Floral"
+                            data-key="torta2"
                             data-precio="95.00" 
                             data-img="img/pastel2.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -57,7 +59,7 @@ const productos = {
 			<!-- producto 3 -->
 			<div class="card-product">
 				<div class="container-img">
-					<img src="img/pastel3.jpg" alt="Torta en forma de corazón" />
+					<img src="img/pastel3.jpg" alt="TORTA CORAZÓN ROSADO" />
 					
 				</div>
 				<div class="content-card-product">
@@ -68,9 +70,10 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 					</div>
-					<h3>Torta corazón rosado</h3>
+					<h3 data-section="productos" data-value="torta3">Torta Corazón Rosado</h3>
                     <button class="btn-agregar-carrito" 
-                            data-nombre="TORTA CORAZÓN ROSADO" 
+                            data-nombre="Torta Corazón Rosado" 
+                            data-key="torta3"
                             data-precio="80.00" 
                             data-img="img/pastel3.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -83,7 +86,7 @@ const productos = {
 			<!-- producto 4 -->
 			<div class="card-product">
 				<div class="container-img">
-					<img src="img/pastel4.jpg" alt="Torta revelación de sexo" />
+					<img src="img/pastel4.jpg" alt="TORTA BOY OR GIRL" />
 					
 				</div>
 				<div class="content-card-product">
@@ -94,9 +97,10 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-regular fa-star"></i>
 					</div>
-					<h3>Torta boy or girl</h3>
+					<h3 data-section="productos" data-value="torta4">Torta Boy or Girl</h3>
 					<button class="btn-agregar-carrito" 
-                            data-nombre="REVELACIÓN DE SEXO" 
+                            data-nombre="Torta Boy or Girl" 
+                            data-key="torta4"
                             data-precio="245.00" 
                             data-img="img/pastel4.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -109,7 +113,7 @@ const productos = {
     recientes: `
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel5.jpg" alt="Torta Unicornio" />
+                <img src="img/pastel5.jpg" alt="Torta Spiderman" />
                 <span class="discount">-15%</span>
                 
             </div>
@@ -121,9 +125,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
-                <h3>Torta Spiderman</h3>
+                <h3 data-section="productos" data-value="torta5">Torta Spiderman</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="UNICORNIO" 
+                        data-nombre="TORTA SPIDERMAN" 
                         data-precio="204.00" 
                         data-img="img/pastel5.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -134,7 +138,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel6.jpg" alt="Cupcakes de chocolate" /> 
+                <img src="img/pastel6.jpg" alt="Box cumpleaños amoroso" /> 
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -144,9 +148,9 @@ const productos = {
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
-                <h3>Box Cumpleaños Amoroso</h3>
+                <h3 data-section="productos" data-value="torta6">Box Cumpleaños Amoroso</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="Cupcake chocolate" 
+                        data-nombre="BOX CUMPLEAÑOS AMOROSO" 
                         data-precio="55.00" 
                         data-img="img/pastel6.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -157,7 +161,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel7.jpg" alt="Torta Red Velvet" />      
+                <img src="img/pastel7.jpg" alt="Torta Cinamonroll" />      
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -167,9 +171,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
-                <h3>Torta Cinamonroll</h3>
+                <h3 data-section="productos" data-value="torta7">Torta Cinamonroll</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="torta red velvet" 
+                        data-nombre="TORTA CINAMONROLL" 
                         data-precio="150.00" 
                         data-img="img/pastel7.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -180,7 +184,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel8.jpg" alt="Torta de Zanahoria" />
+                <img src="img/pastel8.jpg" alt="Torta Cumpleaños mamá" />
                 <span class="discount">-10%</span>
                 
             </div>
@@ -192,9 +196,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 </div>
-                <h3>Torta Cumpleaños mamá</h3>
+                <h3 data-section="productos" data-value="torta8">Torta Cumpleaños Mamá</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="torta de zanahoria" 
+                        data-nombre="TORTA CUMPLEAÑOS MAMÁ" 
                         data-precio="153.00" 
                         data-img="img/pastel8.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -219,9 +223,9 @@ const productos = {
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-regular fa-star"></i>
 					</div>
-					<h3>Torta Hello Kitty</h3>
+					<h3 data-section="productos" data-value="torta1">Torta Hello Kitty</h3>
 					<button class="btn-agregar-carrito" 
-                            data-nombre="torta hello kitty" 
+                            data-nombre="TORTA HELLO KITTY" 
                             data-precio="261.00" 
                             data-img="img/pastel1.jpg">
                             <i class="fa-solid fa-cart-plus"></i>
@@ -232,7 +236,7 @@ const productos = {
 			</div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel10.jpg" alt="Cupcakes de chocolate" />
+                <img src="img/pastel10.jpg" alt="Box sorpresa amorosa" />
                 
             </div>
             <div class="content-card-product">
@@ -243,9 +247,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 </div>
-                <h3>Box Sorpresa Amorosa</h3>
+                <h3 data-section="productos" data-value="torta9">Box Sorpresa Amorosa</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="cupcake chocolate" 
+                        data-nombre="BOX SORPRESA AMOROSA" 
                         data-precio="95.00" 
                         data-img="img/pastel10.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -256,7 +260,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel11.jpg" alt="Torta Red Velvet" />
+                <img src="img/pastel11.jpg" alt="Torta Blancanieves" />
             </div>
             <div class="content-card-product">
                 <div class="stars">
@@ -266,9 +270,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
-                <h3>Torta Blancanieves</h3>
+                <h3 data-section="productos" data-value="torta10">Torta Blancanieves</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="torta red velvet" 
+                        data-nombre="TORTA BLANCANIEVES" 
                         data-precio="310.00" 
                         data-img="img/pastel11.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -279,7 +283,7 @@ const productos = {
         </div>
         <div class="card-product">
             <div class="container-img">
-                <img src="img/pastel12.jpg" alt="Torta de Zanahoria" />
+                <img src="img/pastel12.jpg" alt="Torta sweet pink" />
                 <span class="discount">-10%</span>
                 
             </div>
@@ -291,9 +295,9 @@ const productos = {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 </div>
-                <h3>Torta Sweet Pink</h3>
+                <h3 data-section="productos" data-value="torta11">Torta Sweet Pink</h3>
                 <button class="btn-agregar-carrito" 
-                        data-nombre="torta de zanahoria" 
+                        data-nombre="TORTA SWEET PINK" 
                         data-precio="90.00" 
                         data-img="img/pastel12.jpg">
                         <i class="fa-solid fa-cart-plus"></i>
@@ -376,6 +380,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (e.target.classList.contains('btn-agregar-carrito') || e.target.closest('.btn-agregar-carrito')) {
             const btn = e.target.closest('.btn-agregar-carrito');
             const nombre = btn.getAttribute('data-nombre');
+            const key = btn.getAttribute('data-key');
             const precio = btn.getAttribute('data-precio');
             const img = btn.getAttribute('data-img');
             let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
@@ -383,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index > -1) {
                 carrito[index].cantidad += 1;
             } else {
-                carrito.push({ nombre, precio, img, cantidad: 1 });
+                carrito.push({ nombre, key, precio, img, cantidad: 1 });
             }
             localStorage.setItem('carrito', JSON.stringify(carrito));
         }
@@ -399,15 +404,27 @@ if (window.location.pathname.includes('carrito.html')) {
     function mostrarCarrito() {
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         const contenedor = document.querySelector('.carrito-contenido');
+
         if (carrito.length === 0) {
             contenedor.innerHTML = '<p data-section="carrito" data-value="vacio">El carrito está vacío.</p>';
+            if (typeof cambiarIdioma === 'function') {
+                const idioma = localStorage.getItem('idioma') || 'es';
+                cambiarIdioma(idioma);
+            }
             return;
         }
+
         let html = '<table><tr><th data-section="carrito" data-value="producto">Producto</th><th data-section="carrito" data-value="precio">Precio</th><th data-section="carrito" data-value="cantidad">Cantidad</th><th data-section="carrito" data-value="total">Total</th><th></th></tr>';
+
         carrito.forEach((item, i) => {
             html += `
                 <tr>
-                    <td><img src="${item.img}" width="60"> ${item.nombre}</td>
+                    <td>
+                        <img src="${item.img}" width="60">
+                        <span class="nombre-producto" data-section="productos" data-value="${item.key || ''}">
+                            ${item.nombre}
+                        </span>
+                    </td>
                     <td>S/. ${item.precio}</td>
                     <td>
                         <button class="menos" data-index="${i}">-</button>
@@ -419,8 +436,15 @@ if (window.location.pathname.includes('carrito.html')) {
                 </tr>
             `;
         });
+
         html += '</table>';
         contenedor.innerHTML = html;
+
+        // Aplicar traducción luego de insertar el HTML
+        if (typeof cambiarIdioma === 'function') {
+            const idioma = localStorage.getItem('idioma') || 'es';
+            cambiarIdioma(idioma);
+        }
 
         // Botón WhatsApp
         let btnWhatsapp = document.getElementById('btn-whatsapp');
