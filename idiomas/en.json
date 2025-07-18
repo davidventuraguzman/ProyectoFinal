@@ -43,7 +43,12 @@
         "torta8": "BIRTHDAY CAKE FOR MOM",
         "torta9": "LOVING SURPRISE BOX",
         "torta10": "SNONWHITE CAKE",
-        "torta11": "SWEET PINK CAKE"
+        "torta11": "SWEET PINK CAKE",
+        "cp1": "OREO CUPCAKE",
+        "cp2": "BLACKBERRY CUPCAKE",
+        "cp3": "ORANGE CUPCAKE",
+        "cp4": "MARGARITA CUPCAKE",
+        "cp5": "RED VELVET CUPCAKE"
     },
     "ubicacion":{
         "titulo": "Locate us in..."

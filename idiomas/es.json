@@ -43,7 +43,12 @@
         "torta8": "TORTA CUMPLEAÑOS PARA MAMÁ",
         "torta9": "BOX SORPRESA AMOROSA",
         "torta10": "TORTA BLANCANIEVES",
-        "torta11": "TORTA SWEET PINK"
+        "torta11": "TORTA SWEET PINK",
+        "cp1": "CUPCAKE OREO",
+        "cp2": "CUPCAKE MORA",
+        "cp3": "CUPCAKE NARANJA",
+        "cp4": "CUPCAKE MARGARITA",
+        "cp5": "CUPCAKE RED VELVET"
     },
     "ubicacion":{
         "titulo": "Ubicanos en..."
