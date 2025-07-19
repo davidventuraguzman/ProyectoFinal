@@ -67,7 +67,7 @@
                 <div class="info-torta">
                     <h3 data-section="productos" data-value="cp1">CUPCAKE OREO</h3>
                     <p>S/. 13.00</p>
-					<button class="btn-agregar-carrito" 
+                    <button class="btn-agregar-carrito" 
                             data-nombre="CUPCAKE OREO" 
 							data-key="cp1"
                             data-precio="13.00" 
@@ -81,7 +81,7 @@
                 <div class="info-torta">
                     <h3 data-section="productos" data-value="cp2">CUPCAKE MORA</h3>
                     <p>S/. 15.00</p>
-					<button class="btn-agregar-carrito" 
+                    <button class="btn-agregar-carrito" 
                             data-nombre="CUPCAKE MORA" 
 							data-key="cp2"
                             data-precio="15.00" 
@@ -95,7 +95,7 @@
                 <div class="info-torta">
                     <h3 data-section="productos" data-value="cp3">CUPCAKE NARANJA</h3>
                     <p>S/. 14.00</p>
-					<button class="btn-agregar-carrito" 
+                    <button class="btn-agregar-carrito" 
                             data-nombre="CUPCAKE NARANJA" 
 							data-key="cp3"
                             data-precio="14.00" 
@@ -109,7 +109,7 @@
                 <div class="info-torta">
                     <h3 data-section="productos" data-value="cp4">CUPCAKE MARGARITA</h3>
                     <p>S/. 15.00</p>
-					<button class="btn-agregar-carrito" 
+                    <button class="btn-agregar-carrito" 
                             data-nombre="TCUPCAKE MARGARITA" 
 							data-value="cp4"
                             data-precio="15.00" 
@@ -123,7 +123,7 @@
                 <div class="info-torta">
                     <h3 data-section="productos" data-value="cp5">CUPCAKE RED VELVET</h3>
                     <p>S/. 16.00</p>
-					<button class="btn-agregar-carrito" 
+                    <button class="btn-agregar-carrito" 
                             data-nombre="CUPCAKE FRESA" 
 							data-value="cp5"
                             data-precio="16.00" 
@@ -177,5 +177,12 @@
 	</section>
 	<script src="js/app.js"></script>
 	<script src="js/idiomas.js"></script>
+	<script>
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof agrandarImagenes === 'function') {
+        agrandarImagenes();
+    }
+});
+</script>
 </body>
 </html>

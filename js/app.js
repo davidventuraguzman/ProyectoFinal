@@ -505,3 +505,21 @@ if (window.location.pathname.includes('carrito.html')) {
         });
     }
 }
+
+// Mueve esta función fuera de cualquier bloque IF
+function agrandarImagenes() {
+    const imagenes = document.querySelectorAll('.torta img');
+    imagenes.forEach(img => {
+        img.addEventListener('click', function () {
+            const modal = document.createElement('div');
+            modal.className = 'modal';
+            const modalImg = document.createElement('img');
+            modalImg.src = this.src;
+            modal.appendChild(modalImg);
+            document.body.appendChild(modal);
+            modal.addEventListener('click', function () {
+                this.remove();
+            });
+        });
+    });
+}
