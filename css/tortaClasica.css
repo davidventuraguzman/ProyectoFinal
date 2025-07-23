@@ -49,7 +49,6 @@
     flex-direction: column;
 }
 
-
 .grid-tortas {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -59,7 +58,7 @@
 .torta {
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     overflow: hidden;
     transition: box-shadow 0.2s;
     display: flex;
@@ -72,6 +71,11 @@
     height: 260px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.torta img:hover {
+    transform: scale(1.05);
 }
 
 .info-torta {
@@ -99,24 +103,29 @@
     .grid-tortas {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .categorias-tortas {
         width: 180px;
     }
 }
+
 @media (max-width: 900px) {
     .catalogo-tortas {
         flex-direction: column;
         gap: 20px;
         padding: 0 10px;
     }
+
     .categorias-tortas {
         width: 100%;
         margin-bottom: 24px;
     }
+
     .grid-tortas {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (max-width: 600px) {
     .grid-tortas {
         grid-template-columns: 1fr;

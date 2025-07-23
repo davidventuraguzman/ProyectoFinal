@@ -68,11 +68,12 @@
             <div class="torta">
                 <img src="img/pastel2.jpg" alt="Torta Frosting">
                 <div class="info-torta">
-                    <h3>BOX FLORAL</h3>
-                    <p>S/. 200.00</p>
+                    <h3 data-section="productos" data-value="torta2">BOX FLORAL</h3>
+                    <p>S/. 52.00</p>
 					<button class="btn-agregar-carrito" 
                             data-nombre="BOX FLORAL" 
-                            data-precio="200.00" 
+							data-key="torta2"
+                            data-precio="52.00" 
                             data-img="img/pastel2.jpg">
                             <i class="fa-solid fa-cart-plus"></i> <span data-section="productos" data-value="boton2">Agregar al carrito</span> 
                         </button>
@@ -81,24 +82,26 @@
             <div class="torta">
                 <img src="img/pastel6.jpg" alt="Torta Frosting">
                 <div class="info-torta">
-                    <h3>BOX CUMPLEAÑOS AMOROSO</h3>
-                    <p>S/. 200.00</p>
+                    <h3 data-section="productos" data-value="torta6">BOX CUMPLEAÑOS AMOROSO</h3>
+                    <p>S/. 55.00</p>
 					<button class="btn-agregar-carrito" 
                             data-nombre="BOX CUMPLEAÑOS AMOROSO" 
-                            data-precio="200.00" 
+							data-key="torta6"
+                            data-precio="55.00" 
                             data-img="img/pastel6.jpg">
                             <i class="fa-solid fa-cart-plus"></i> <span data-section="productos" data-value="boton2">Agregar al carrito</span> 
                         </button>
                 </div>
             </div>
             <div class="torta">
-                <img src="img/pastel10.jpg" alt="Torta Frosting">
+                <img src="img/pastel10.jpg" alt="box sorpresa amorosa">
                 <div class="info-torta">
-                    <h3>BOX SOSPRESA AMOROSA</h3>
-                    <p>S/. 200.00</p>
+                    <h3 data-section="productos" data-value="torta9">BOX SOSPRESA AMOROSA</h3>
+                    <p>S/. 95.00</p>
 					<button class="btn-agregar-carrito" 
                             data-nombre="BOX SOSPRESA AMOROSA" 
-                            data-precio="200.00" 
+							data-key="torta9"
+                            data-precio="95.00" 
                             data-img="img/pastel10.jpg">
                             <i class="fa-solid fa-cart-plus"></i> <span data-section="productos" data-value="boton2">Agregar al carrito</span> 
                         </button>
@@ -147,6 +150,16 @@
 				Ventura</p>
 		</footer>
 	</section>
+	<div id="modal-img" class="modal-img">
+        <span class="close-modal">&times;</span>
+        <div class="modal-flex">
+            <img class="modal-content-img" id="img-ampliada" alt="">
+            <div class="modal-info">
+                <h3 id="modal-nombre"></h3>
+                <p id="modal-precio"></p>
+            </div>
+        </div>
+    </div>
 	<script src="js/app.js"></script>
 	<script src="js/idiomas.js"></script>
 </body>

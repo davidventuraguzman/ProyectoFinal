@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index > -1) {
                 carrito[index].cantidad += 1;
             } else {
-                carrito.push({ nombre, key ,precio, img, cantidad: 1 });
+                carrito.push({ nombre, key, precio, img, cantidad: 1 });
             }
             localStorage.setItem('carrito', JSON.stringify(carrito));
         }
@@ -416,14 +416,14 @@ if (window.location.pathname.includes('carrito.html')) {
         if (carrito.length === 0) {
             contenedor.innerHTML = '<p data-section="carrito" data-value="vacio">El carrito está vacío.</p>';
             if (typeof cambiarIdioma === 'function') {
-        const idioma = localStorage.getItem('idioma') || 'es';
-        cambiarIdioma(idioma);
-    }
+                const idioma = localStorage.getItem('idioma') || 'es';
+                cambiarIdioma(idioma);
+            }
             return;
         }
 
         let html = '<table><tr><th data-section="carrito" data-value="producto">Producto</th><th data-section="carrito" data-value="precio">Precio</th><th data-section="carrito" data-value="cantidad">Cantidad</th><th data-section="carrito" data-value="total">Total</th><th></th></tr>';
-        
+
         carrito.forEach((item, i) => {
             html += `
                 <tr>
@@ -505,3 +505,41 @@ if (window.location.pathname.includes('carrito.html')) {
         });
     }
 }
+document.body.addEventListener('click', function(e) {
+    // Verifica si se hizo clic en una imagen de producto
+    if (e.target.matches('.container-img img') || e.target.matches('.torta img')) {
+        // Detecta el tipo de tarjeta
+        let card, nombre, precio;
+        if (e.target.closest('.card-product')) {
+            card = e.target.closest('.card-product');
+            nombre = card.querySelector('h3') ? card.querySelector('h3').textContent : '';
+            // Solo el texto principal del precio, sin el span
+            const priceP = card.querySelector('.price');
+            precio = priceP ? priceP.childNodes[0].textContent.trim() : '';
+        } else if (e.target.closest('.torta')) {
+            card = e.target.closest('.torta');
+            nombre = card.querySelector('.info-torta h3') ? card.querySelector('.info-torta h3').textContent : '';
+            precio = card.querySelector('.info-torta p') ? card.querySelector('.info-torta p').textContent : '';
+        }
+
+        const modal = document.getElementById('modal-img');
+        const modalImg = document.getElementById('img-ampliada');
+        const modalNombre = document.getElementById('modal-nombre');
+        const modalPrecio = document.getElementById('modal-precio');
+        modalImg.src = e.target.src;
+        modalNombre.textContent = nombre;
+        modalPrecio.textContent = precio;
+        modal.classList.add('active');
+    }
+});
+
+// Cerrar modal
+document.querySelector('.close-modal').addEventListener('click', function () {
+    document.getElementById('modal-img').classList.remove('active');
+});
+
+document.getElementById('modal-img').addEventListener('click', function (e) {
+    if (e.target === this) {
+        this.classList.remove('active');
+    }
+});

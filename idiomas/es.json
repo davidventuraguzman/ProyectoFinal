@@ -48,7 +48,12 @@
         "cp2": "CUPCAKE MORA",
         "cp3": "CUPCAKE NARANJA",
         "cp4": "CUPCAKE MARGARITA",
-        "cp5": "CUPCAKE RED VELVET"
+        "cp5": "CUPCAKE RED VELVET",
+        "cookie1": "GALLETA ALFAJOR",
+        "cookie2": "GALLETA MARGARITA",
+        "cookie3": "GALLETA CHISPAS CHOCOLATE",
+        "cookie4": "GALLETAS OREO",
+        "cookie5": "GALLETAS CONFETI"
     },
     "ubicacion":{
         "titulo": "Ubicanos en..."

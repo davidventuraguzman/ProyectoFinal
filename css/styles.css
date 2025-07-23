@@ -342,12 +342,10 @@ img {
     background-color: var(--rosado-fuerte);
 }
 
-
 .card-product:hover {
     z-index: 0;
     right: -1rem;
 }
-
 .content-card-product {
     display: grid;
     justify-items: center;
@@ -355,18 +353,15 @@ img {
     grid-template-rows: repeat(4, min-content);
     row-gap: 1rem;
 }
-
 .stars {
     grid-row: 1/2;
     grid-column: 1/-1;
     padding-top: 2rem;
 }
-
 .stars i {
     font-size: 1.3rem;
     color: var(--rosado);
 }
-
 .content-card-product h3 {
     grid-row: 2/3;
     grid-column: 1/-1;
@@ -382,7 +377,14 @@ img {
 .content-card-product h3:hover {
     color: var(--rosado);
 }
+/* Agranda la imagen de producto al hacer hover */
+.card-product .container-img img {
+    transition: transform 0.3s ease;
+}
 
+.card-product .container-img img:hover {
+    transform: scale(1.05);
+}
 .add-cart {
     justify-self: start;
     border: 1.5px solid var(--rosado);
@@ -1025,4 +1027,62 @@ img {
         width: 100%;
     }
 
+}
+/* Modal imagen ampliada */
+.modal-img {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-img.active {
+    display: flex;
+}
+
+.modal-flex {
+    display: flex;
+    gap: 32px;
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.modal-content-img {
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 12px;
+}
+
+.modal-info {
+    min-width: 200px;
+    font-size: 1.8rem;
+}
+
+.close-modal {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 10001;
+}
+
+.modal-info #modal-precio {
+    color: #a94b2c;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-top: 12px;
+}
+.close-modal {
+    font-size: 4rem;
 }
