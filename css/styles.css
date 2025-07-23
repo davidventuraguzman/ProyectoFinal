@@ -753,8 +753,6 @@ img {
     }
 }
 
-
-
 /* Estilo para el botn de agregar al carrito*/
 /* Botón temático para agregar al carrito */
 .btn-agregar-carrito {
@@ -1018,6 +1016,23 @@ img {
     background: var(--rosado-semifuerte);
     color: #fff;
     transform: scale(1.07);
+}
+
+/* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.modal img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
