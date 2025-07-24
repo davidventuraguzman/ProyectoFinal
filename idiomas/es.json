@@ -26,6 +26,17 @@
         "parrafo": "Tu rincón dulce, donde los sabores cobran vida y cada creación cuenta una historia, déjate tentar por nuestras tortas personalizadas, postres artesanales y delicias que transforman cualquier momento en una celebración. Nos apasiona lo que hacemos, y eso se nota en cada sabor, cada decoración, cada sonrisa que provocamos. Explora nuestro mundo de sabores y descubre por qué en Sugar, el arte se hornea. Desde tortas clásicas hasta cupcakes creativos, cada bocado es una experiencia única. Estamos aquí para endulzar tus días y hacer que cada celebración sea inolvidable. ¡Gracias por elegirnos!",
         "boton": "Ver más"
     },
+    "testimonios":{
+        "titulo": "Opiniones de nuestros clientes",
+        "testimonio1": "¡Las tortas son deliciosas y super creativas. ¡100% recomendadas!",
+        "testimonio2": "Pedí una torta para el cumple de mi hijo y quedó encantado. Excelente atención.",
+        "testimonio3": "Los cupcakes tienen un sabor increíble. Todo muy profesional.",
+        "testimonio4": "Me encantó el box de cupcakes. Perfecto para regalar. ¡Gracias Sugar!",
+        "testimonio5": "Siempre compro aquí. La mejor pastelería de Trujillo sin dudas.",
+        "testimonio6": "Excelente servicio, todos muy amables, hasta el repartidor! Muchas gracias Sugar Pasteleria.",
+        "testimonio7": "Los cupcakes son super recomendadas, muy delicioso todo",
+        "testimonio8": "Los postres son una delicia. ¡No puedo esperar para probar más!"
+    },
     "productos":{
         "titulo": "Mejores Productos",
         "destacados": "Destacados",
@@ -53,7 +64,14 @@
         "cookie2": "GALLETA MARGARITA",
         "cookie3": "GALLETA CHISPAS CHOCOLATE",
         "cookie4": "GALLETAS OREO",
-        "cookie5": "GALLETAS CONFETI"
+        "cookie5": "GALLETAS CONFETI",
+        "postre1": "DULCE DE PIÑA",
+        "postre2": "DULCE DE FAMBRUESA",
+        "postre3": "PANQUEQUES DE PLÁTANO",
+        "postre4": "TARTA DE CEREZA",
+        "postre5": "DONAS",
+        "postre6": "CHEESECAKE ROLLS FRESA",
+        "postre7": "CAKEPOP SAN VALENTÍN"
     },
     "ubicacion":{
         "titulo": "Ubicanos en..."

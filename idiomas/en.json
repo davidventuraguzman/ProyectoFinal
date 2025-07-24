@@ -48,7 +48,25 @@
         "cp2": "BLACKBERRY CUPCAKE",
         "cp3": "ORANGE CUPCAKE",
         "cp4": "MARGARITA CUPCAKE",
-        "cp5": "RED VELVET CUPCAKE"
+        "cp5": "RED VELVET CUPCAKE",
+        "postre1": "PINEAPPLE DELIGHT",
+        "postre2": "RASPBERRY DELIGHT",
+        "postre3": "BANANA PANCAKES",
+        "postre4": "CHERRY TART",
+        "postre5": "DONUTS",
+        "postre6": "STRAWBERRY CHEESECAKE ROLLS",
+        "postre7": "VALENTINE'S CAKEPOP"
+    },
+    "testimonios":{
+        "titulo": "Opinions from our customers",
+        "testimonio1": "The cakes are delicious and super creative. Highly recommended!",
+        "testimonio2": "I ordered a cake for my son's birthday and he loved it. Excellent service.",
+        "testimonio3": "The cupcakes have an amazing flavor. Everything is very professional.",
+        "testimonio4": "I loved the cupcake box. Perfect for gifting. Thank you, Sugar!",
+        "testimonio5": "I always buy here. The best bakery in Trujillo without a doubt.",
+        "testimonio6": "Excellent service, everyone is very friendly, even the delivery person! Thank you very much, Sugar Pasteleria.",
+        "testimonio7": "The cupcakes are highly recommended, everything is very delicious",
+        "testimonio8": "The desserts are a delight. I can't wait to try more!"
     },
     "ubicacion":{
         "titulo": "Locate us in..."
