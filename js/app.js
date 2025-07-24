@@ -505,7 +505,7 @@ if (window.location.pathname.includes('carrito.html')) {
         });
     }
 }
-document.body.addEventListener('click', function(e) {
+document.body.addEventListener('click', function (e) {
     // Verifica si se hizo clic en una imagen de producto
     if (e.target.matches('.container-img img') || e.target.matches('.torta img')) {
         // Detecta el tipo de tarjeta
@@ -542,4 +542,44 @@ document.getElementById('modal-img').addEventListener('click', function (e) {
     if (e.target === this) {
         this.classList.remove('active');
     }
+});
+//Carrusel
+document.addEventListener('DOMContentLoaded', function () {
+    const track = document.querySelector('.carrusel-track');
+    const cards = Array.from(track.children);
+    let index = 0;
+    let width = cards[0].offsetWidth + 20; // 20px es el gap
+
+    // Clona los elementos para el bucle infinito
+    cards.forEach(card => {
+        const clone = card.cloneNode(true);
+        track.appendChild(clone);
+    });
+
+    let interval;
+    function startCarousel() {
+        interval = setInterval(moveNext, 3000); // 3s entre movimientos
+    }
+    function stopCarousel() {
+        clearInterval(interval);
+    }
+
+    function moveNext() {
+        index++;
+        track.style.transition = 'transform 1.2s linear';
+        track.style.transform = `translateX(-${width * index}px)`;
+
+        if (index >= cards.length) {
+            setTimeout(() => {
+                track.style.transition = 'none';
+                track.style.transform = 'translateX(0)';
+                index = 0;
+            }, 1200); // igual al tiempo de transición
+        }
+    }
+
+    track.parentElement.addEventListener('mouseenter', stopCarousel);
+    track.parentElement.addEventListener('mouseleave', startCarousel);
+
+    startCarousel();
 });
