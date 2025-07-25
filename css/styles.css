@@ -1199,3 +1199,40 @@ img {
 .close-modal {
     font-size: 4rem;
 }
+@media (max-width: 768px) {
+  .modal-img,
+  .modal {
+    align-items: center;
+    padding: 0;
+  }
+
+  .modal-flex {
+    flex-direction: column;
+    gap: 18px;
+    width: 96vw;
+    max-width: 96vw;
+    padding: 0;
+    align-items: center;
+  }
+
+  .modal-content-img {
+    max-width: 90vw;
+    max-height: 40vh;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .modal-info {
+    min-width: unset;
+    width: 92vw;
+    font-size: 1.2rem;
+    padding: 18px 10px;
+    border-radius: 12px;
+  }
+
+  .close-modal {
+    top: 12px;
+    right: 18px;
+    font-size: 2.5rem;
+  }
+}
